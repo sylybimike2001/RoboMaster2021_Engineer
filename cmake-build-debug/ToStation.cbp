@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ToStation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ToStation">
+				<Option output="/home/ayb/CLionProjects/ToStation/cmake-build-debug/ToStation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayb/CLionProjects/ToStation/flash/include"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/mineral/include"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/com/include"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/com/include/serial"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/headers"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/rmconfig"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 ToStation"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ToStation/fast">
+				<Option output="/home/ayb/CLionProjects/ToStation/cmake-build-debug/ToStation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayb/CLionProjects/ToStation/flash/include"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/mineral/include"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/com/include"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/com/include/serial"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/headers"/>
+					<Add directory="/home/ayb/CLionProjects/ToStation/rmconfig"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 ToStation/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/com/include/serial/impl/unix.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/com/include/serial/impl/win.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/com/include/serial/serial.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/com/include/serial/v8sydint.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/datatypes.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/impl/list_ports/list_ports_linux.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/impl/unix.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/rmserial.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/serial.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/flash/include/flash.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/flash/run.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/flash/src/detect/detect_flash.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/flash/src/init/init_flash.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/headers/options.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/headers/parameter.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/main.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/include/mineral.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/run.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/detect_line.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/detect_mineral.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/get/get_fit_points.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/init/init_mineral.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/select_ROI.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/send/send_target.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/rmconfig/rmconfig.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/tools/sort/sort_points_vector.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/ToStation/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
