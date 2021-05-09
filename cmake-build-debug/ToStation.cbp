@@ -152,10 +152,10 @@
 		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/run.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/detect_line.cpp">
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/detect/detect_mineral.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/detect_mineral.cpp">
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/detect_line.cpp">
 			<Option target="ToStation"/>
 		</Unit>
 		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/get/get_fit_points.cpp">

@@ -1,5 +1,6 @@
 #include <datatypes.h>
 #include <string.h>
+#include <iostream>
 McuData generatePanMcuData(float yaw, float pitch) {
     McuData result;
     PanData data = (PanData){'s', MCU_PAN_TYPE, yaw, pitch, 'e'};
@@ -59,4 +60,9 @@ void readSpeedMcuData(McuData* mcudata, float* speed) {
     SpeedData data;
     memcpy(&data, mcudata, sizeof(McuData));
     *speed = data.speed;
+}
+
+void readEngineerMcuData(McuData* mcudata, bool* start){
+    *start = mcudata->start;
+    std::cout<<"Mcu start:"<<mcudata->start<<std::endl;
 }

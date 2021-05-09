@@ -2,14 +2,14 @@
 #include <rmconfig.h>
 #include <iostream>
 using namespace std;
+//McuConfig receive_config_data;
 void Mineral::run() {
     initMineral();
-    while (keepRunning)
+    while (1)
     {
         if (use_cam) {
             cutecap >> src;
             if (src.empty()) {
-                std::cout << "empty" <<std::endl;
                 break;
             }
             //cv::resize(src, src, cv::Size(640, 640));

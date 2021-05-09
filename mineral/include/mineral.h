@@ -2,6 +2,8 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
 #include <rmserial.h>
+
+
 using namespace cv;
 class Mineral{
 public:
@@ -24,5 +26,5 @@ private:
     Rect ROI;
     bool isHorizontal;
     bool ROI_possible;
-    bool keepRunning;
+
 };

@@ -89,22 +89,9 @@ CMakeFiles/ToStation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/ToStation/main.cpp -o CMakeFiles/ToStation.dir/main.cpp.s
 
-CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.o: CMakeFiles/ToStation.dir/flags.make
-CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.o: ../mineral/src/detect_mineral.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.o -c /home/ayb/CLionProjects/ToStation/mineral/src/detect_mineral.cpp
-
-CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayb/CLionProjects/ToStation/mineral/src/detect_mineral.cpp > CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.i
-
-CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/ToStation/mineral/src/detect_mineral.cpp -o CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.s
-
 CMakeFiles/ToStation.dir/com/src/datatypes.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/com/src/datatypes.cpp.o: ../com/src/datatypes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ToStation.dir/com/src/datatypes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ToStation.dir/com/src/datatypes.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/com/src/datatypes.cpp.o -c /home/ayb/CLionProjects/ToStation/com/src/datatypes.cpp
 
 CMakeFiles/ToStation.dir/com/src/datatypes.cpp.i: cmake_force
@@ -117,7 +104,7 @@ CMakeFiles/ToStation.dir/com/src/datatypes.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/com/src/rmserial.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/com/src/rmserial.cpp.o: ../com/src/rmserial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ToStation.dir/com/src/rmserial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ToStation.dir/com/src/rmserial.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/com/src/rmserial.cpp.o -c /home/ayb/CLionProjects/ToStation/com/src/rmserial.cpp
 
 CMakeFiles/ToStation.dir/com/src/rmserial.cpp.i: cmake_force
@@ -130,7 +117,7 @@ CMakeFiles/ToStation.dir/com/src/rmserial.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/com/src/serial.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/com/src/serial.cpp.o: ../com/src/serial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ToStation.dir/com/src/serial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ToStation.dir/com/src/serial.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/com/src/serial.cpp.o -c /home/ayb/CLionProjects/ToStation/com/src/serial.cpp
 
 CMakeFiles/ToStation.dir/com/src/serial.cpp.i: cmake_force
@@ -143,7 +130,7 @@ CMakeFiles/ToStation.dir/com/src/serial.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/com/src/impl/unix.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/com/src/impl/unix.cpp.o: ../com/src/impl/unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ToStation.dir/com/src/impl/unix.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ToStation.dir/com/src/impl/unix.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/com/src/impl/unix.cpp.o -c /home/ayb/CLionProjects/ToStation/com/src/impl/unix.cpp
 
 CMakeFiles/ToStation.dir/com/src/impl/unix.cpp.i: cmake_force
@@ -156,7 +143,7 @@ CMakeFiles/ToStation.dir/com/src/impl/unix.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/com/src/impl/list_ports/list_ports_linux.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/com/src/impl/list_ports/list_ports_linux.cpp.o: ../com/src/impl/list_ports/list_ports_linux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ToStation.dir/com/src/impl/list_ports/list_ports_linux.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ToStation.dir/com/src/impl/list_ports/list_ports_linux.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/com/src/impl/list_ports/list_ports_linux.cpp.o -c /home/ayb/CLionProjects/ToStation/com/src/impl/list_ports/list_ports_linux.cpp
 
 CMakeFiles/ToStation.dir/com/src/impl/list_ports/list_ports_linux.cpp.i: cmake_force
@@ -169,7 +156,7 @@ CMakeFiles/ToStation.dir/com/src/impl/list_ports/list_ports_linux.cpp.s: cmake_f
 
 CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o: ../mineral/src/detect_line.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o -c /home/ayb/CLionProjects/ToStation/mineral/src/detect_line.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.i: cmake_force
@@ -182,7 +169,7 @@ CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.o: ../mineral/src/select_ROI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.o -c /home/ayb/CLionProjects/ToStation/mineral/src/select_ROI.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.i: cmake_force
@@ -195,7 +182,7 @@ CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.o: ../mineral/src/init/init_mineral.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.o -c /home/ayb/CLionProjects/ToStation/mineral/src/init/init_mineral.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.i: cmake_force
@@ -208,7 +195,7 @@ CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o: ../mineral/src/send/send_target.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o -c /home/ayb/CLionProjects/ToStation/mineral/src/send/send_target.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.i: cmake_force
@@ -221,7 +208,7 @@ CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o: ../flash/src/detect/detect_flash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o -c /home/ayb/CLionProjects/ToStation/flash/src/detect/detect_flash.cpp
 
 CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.i: cmake_force
@@ -234,7 +221,7 @@ CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/flash/run.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/flash/run.cpp.o: ../flash/run.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ToStation.dir/flash/run.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ToStation.dir/flash/run.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/flash/run.cpp.o -c /home/ayb/CLionProjects/ToStation/flash/run.cpp
 
 CMakeFiles/ToStation.dir/flash/run.cpp.i: cmake_force
@@ -247,7 +234,7 @@ CMakeFiles/ToStation.dir/flash/run.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o: ../flash/src/init/init_flash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o -c /home/ayb/CLionProjects/ToStation/flash/src/init/init_flash.cpp
 
 CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.i: cmake_force
@@ -260,7 +247,7 @@ CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.o: ../tools/sort/sort_points_vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.o -c /home/ayb/CLionProjects/ToStation/tools/sort/sort_points_vector.cpp
 
 CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.i: cmake_force
@@ -273,7 +260,7 @@ CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o: ../mineral/src/get/get_fit_points.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o -c /home/ayb/CLionProjects/ToStation/mineral/src/get/get_fit_points.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.i: cmake_force
@@ -286,7 +273,7 @@ CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/run.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/run.cpp.o: ../mineral/run.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ToStation.dir/mineral/run.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ToStation.dir/mineral/run.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/run.cpp.o -c /home/ayb/CLionProjects/ToStation/mineral/run.cpp
 
 CMakeFiles/ToStation.dir/mineral/run.cpp.i: cmake_force
@@ -297,10 +284,22 @@ CMakeFiles/ToStation.dir/mineral/run.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/run.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/ToStation/mineral/run.cpp -o CMakeFiles/ToStation.dir/mineral/run.cpp.s
 
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o: CMakeFiles/ToStation.dir/flags.make
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o: ../mineral/src/detect/detect_mineral.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o -c /home/ayb/CLionProjects/ToStation/mineral/src/detect/detect_mineral.cpp
+
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayb/CLionProjects/ToStation/mineral/src/detect/detect_mineral.cpp > CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.i
+
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/ToStation/mineral/src/detect/detect_mineral.cpp -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.s
+
 # Object files for target ToStation
 ToStation_OBJECTS = \
 "CMakeFiles/ToStation.dir/main.cpp.o" \
-"CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.o" \
 "CMakeFiles/ToStation.dir/com/src/datatypes.cpp.o" \
 "CMakeFiles/ToStation.dir/com/src/rmserial.cpp.o" \
 "CMakeFiles/ToStation.dir/com/src/serial.cpp.o" \
@@ -315,13 +314,13 @@ ToStation_OBJECTS = \
 "CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o" \
 "CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o" \
-"CMakeFiles/ToStation.dir/mineral/run.cpp.o"
+"CMakeFiles/ToStation.dir/mineral/run.cpp.o" \
+"CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o"
 
 # External object files for target ToStation
 ToStation_EXTERNAL_OBJECTS =
 
 ToStation: CMakeFiles/ToStation.dir/main.cpp.o
-ToStation: CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.o
 ToStation: CMakeFiles/ToStation.dir/com/src/datatypes.cpp.o
 ToStation: CMakeFiles/ToStation.dir/com/src/rmserial.cpp.o
 ToStation: CMakeFiles/ToStation.dir/com/src/serial.cpp.o
@@ -337,6 +336,7 @@ ToStation: CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o
 ToStation: CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/run.cpp.o
+ToStation: CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o
 ToStation: CMakeFiles/ToStation.dir/build.make
 ToStation: /usr/local/lib/libopencv_dnn.so.4.4.0
 ToStation: /usr/local/lib/libopencv_highgui.so.4.4.0

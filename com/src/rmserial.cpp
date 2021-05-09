@@ -5,6 +5,7 @@
 using namespace std;
 using namespace serial;
 // receive data
+
 std::mutex receive_mtx;
 McuConfig receive_config_data;
 std::string uart_port = "/dev/ttyUSB0";
@@ -27,9 +28,15 @@ void proccess_data(uint8_t* s, uint8_t* e) {        //参数：头指针，尾�
     McuData mcu_data;
     memcpy(&mcu_data, s, sizeof(McuData));
     if (mcu_data.start_flag != 's') {
+        cout<<"Not Starter with 's' "<<endl;
         return;
     }
     receive_mtx.lock();
+//#define MCU_PAN_TYPE 0
+//#define MCU_CONFIG_TYPE 1
+//#define MCU_ENERGY_TYPE 2
+//#define MCU_SPEED_TYPE 3
+//
     switch (mcu_data.type) {
         case MCU_PAN_TYPE:
             readPanMcuData(&mcu_data, &receive_config_data.curr_yaw,
@@ -47,6 +54,8 @@ void proccess_data(uint8_t* s, uint8_t* e) {        //参数：头指针，尾�
         case MCU_SPEED_TYPE:
             readSpeedMcuData(&mcu_data, &receive_config_data.bullet_speed);
             break;
+        case 4:
+            readEngineerMcuData(&mcu_data, &receive_config_data.start);
         default:
             break;
     }
@@ -95,7 +104,7 @@ bool RmSerial::init() {
     //初始化数据
 
     //开启数据接受线程
-    //start_thread();
+    start_thread();
     if (active_port->isOpen()) {
         cout << "Successfully initialized port " << uart_port;
         return true;

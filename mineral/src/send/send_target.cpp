@@ -1,8 +1,7 @@
 #include <mineral.h>
 #include <datatypes.h>
 #include <rmconfig.h>
-#include <iostream>
-using namespace std;
+
 bool Mineral::sendTarget() {
     SendData data;
     data.start_flag='s';
@@ -19,8 +18,9 @@ bool Mineral::sendTarget() {
         data.error_x = error_x;
         if(data.error_x>120) data.error_x = 120;
     }
-
-    cout<<"Error X:"<<data.error_x<<endl;
+//
+//    cout<<"Error X:"<<data.error_x<<endl;
+//    cout<<"r or l?"<<data.direction_x<<endl;
 
 
     //y方向误差计算
@@ -38,7 +38,10 @@ bool Mineral::sendTarget() {
     data.Errordata = 0;
     data.end_flag = 'e';
 
-    if(all_fit_points.size()==3) rmSerial.send_data(data);
+    if(all_fit_points.size()==3) {
+        rmSerial.send_data(data);
+        cout<<"Data Sent"<<endl;
+    }
     else {
 #ifdef DEBUG
         std::cout<<"Wrong Data"<<std::endl;

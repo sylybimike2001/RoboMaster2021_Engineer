@@ -14,6 +14,7 @@ struct McuConfig {
     float bullet_speed;   // 当前弹速
     int delta_x;          // 能量机关x轴补偿量
     int delta_y;          // 能量机关y轴补偿量
+    bool start;
 };
 
 class RmSerial {

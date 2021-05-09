@@ -27,8 +27,9 @@ typedef struct _SendData {
 typedef struct _McuData {
     uint8_t start_flag;
     uint8_t type;
-    uint32_t x;
-    uint32_t y;
+    uint8_t start;
+//    uint32_t x;
+//    uint32_t y;
     uint8_t end_flag;
 } McuData;
 
@@ -79,4 +80,5 @@ void readConfigMcuData(McuData* data, uint8_t* state, uint8_t* anti_top,
                        uint8_t* enemy_color);
 void readEnergyMcuData(McuData* data, int* delta_x, int* delta_y);
 void readSpeedMcuData(McuData* data, float* speed);
+void readEngineerMcuData(McuData* mcudata, bool* start);
 #endif

@@ -412,6 +412,33 @@ mineral/run.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/run.cpp.s
 .PHONY : mineral/run.cpp.s
 
+mineral/src/detect/detect_mineral.o: mineral/src/detect/detect_mineral.cpp.o
+
+.PHONY : mineral/src/detect/detect_mineral.o
+
+# target to build an object file
+mineral/src/detect/detect_mineral.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o
+.PHONY : mineral/src/detect/detect_mineral.cpp.o
+
+mineral/src/detect/detect_mineral.i: mineral/src/detect/detect_mineral.cpp.i
+
+.PHONY : mineral/src/detect/detect_mineral.i
+
+# target to preprocess a source file
+mineral/src/detect/detect_mineral.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.i
+.PHONY : mineral/src/detect/detect_mineral.cpp.i
+
+mineral/src/detect/detect_mineral.s: mineral/src/detect/detect_mineral.cpp.s
+
+.PHONY : mineral/src/detect/detect_mineral.s
+
+# target to generate assembly for a file
+mineral/src/detect/detect_mineral.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.s
+.PHONY : mineral/src/detect/detect_mineral.cpp.s
+
 mineral/src/detect_line.o: mineral/src/detect_line.cpp.o
 
 .PHONY : mineral/src/detect_line.o
@@ -438,33 +465,6 @@ mineral/src/detect_line.s: mineral/src/detect_line.cpp.s
 mineral/src/detect_line.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.s
 .PHONY : mineral/src/detect_line.cpp.s
-
-mineral/src/detect_mineral.o: mineral/src/detect_mineral.cpp.o
-
-.PHONY : mineral/src/detect_mineral.o
-
-# target to build an object file
-mineral/src/detect_mineral.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.o
-.PHONY : mineral/src/detect_mineral.cpp.o
-
-mineral/src/detect_mineral.i: mineral/src/detect_mineral.cpp.i
-
-.PHONY : mineral/src/detect_mineral.i
-
-# target to preprocess a source file
-mineral/src/detect_mineral.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.i
-.PHONY : mineral/src/detect_mineral.cpp.i
-
-mineral/src/detect_mineral.s: mineral/src/detect_mineral.cpp.s
-
-.PHONY : mineral/src/detect_mineral.s
-
-# target to generate assembly for a file
-mineral/src/detect_mineral.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.s
-.PHONY : mineral/src/detect_mineral.cpp.s
 
 mineral/src/get/get_fit_points.o: mineral/src/get/get_fit_points.cpp.o
 
@@ -640,12 +640,12 @@ help:
 	@echo "... mineral/run.o"
 	@echo "... mineral/run.i"
 	@echo "... mineral/run.s"
+	@echo "... mineral/src/detect/detect_mineral.o"
+	@echo "... mineral/src/detect/detect_mineral.i"
+	@echo "... mineral/src/detect/detect_mineral.s"
 	@echo "... mineral/src/detect_line.o"
 	@echo "... mineral/src/detect_line.i"
 	@echo "... mineral/src/detect_line.s"
-	@echo "... mineral/src/detect_mineral.o"
-	@echo "... mineral/src/detect_mineral.i"
-	@echo "... mineral/src/detect_mineral.s"
 	@echo "... mineral/src/get/get_fit_points.o"
 	@echo "... mineral/src/get/get_fit_points.i"
 	@echo "... mineral/src/get/get_fit_points.s"

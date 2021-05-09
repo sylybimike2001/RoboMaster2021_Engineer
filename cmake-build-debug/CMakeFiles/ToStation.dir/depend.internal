@@ -571,14 +571,15 @@ CMakeFiles/ToStation.dir/mineral/run.cpp.o
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp
  /usr/local/include/opencv4/opencv2/video/tracking.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
-CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o
  ../com/include/rmserial.h
  ../com/include/serial/serial.h
  ../headers/parameter.h
  ../mineral/include/mineral.h
+ ../tools/sort/sort_points_vector.cpp
  /home/ayb/CLionProjects/ToStation/com/include/datatypes.h
  /home/ayb/CLionProjects/ToStation/com/include/serial/v8sydint.h
- /home/ayb/CLionProjects/ToStation/mineral/src/detect_line.cpp
+ /home/ayb/CLionProjects/ToStation/mineral/src/detect/detect_mineral.cpp
  /usr/local/include/opencv4/opencv2/calib3d.hpp
  /usr/local/include/opencv4/opencv2/core.hpp
  /usr/local/include/opencv4/opencv2/core/affine.hpp
@@ -680,15 +681,14 @@ CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp
  /usr/local/include/opencv4/opencv2/video/tracking.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
-CMakeFiles/ToStation.dir/mineral/src/detect_mineral.cpp.o
+CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o
  ../com/include/rmserial.h
  ../com/include/serial/serial.h
  ../headers/parameter.h
  ../mineral/include/mineral.h
  /home/ayb/CLionProjects/ToStation/com/include/datatypes.h
  /home/ayb/CLionProjects/ToStation/com/include/serial/v8sydint.h
- /home/ayb/CLionProjects/ToStation/mineral/src/detect_mineral.cpp
- /home/ayb/CLionProjects/ToStation/tools/sort/sort_points_vector.cpp
+ /home/ayb/CLionProjects/ToStation/mineral/src/detect_line.cpp
  /usr/local/include/opencv4/opencv2/calib3d.hpp
  /usr/local/include/opencv4/opencv2/core.hpp
  /usr/local/include/opencv4/opencv2/core/affine.hpp

@@ -5,7 +5,7 @@ using namespace std;
 using namespace cv;
 using namespace std;
 using namespace cv;
-
+extern bool keepRunning;
 int main()
 {
     /*
@@ -15,7 +15,7 @@ int main()
     uint8_t Standard;                       //图像x方向是否对齐（线是否水平）
     uint8_t end_flag;
     */
-
+    receive_config_data.start=1;
     Mineral MINERAL_DETECTOR;
     MINERAL_DETECTOR.run();
     cout<<"project start"<<endl;

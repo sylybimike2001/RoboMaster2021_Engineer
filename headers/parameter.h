@@ -16,8 +16,8 @@ const Scalar Line_finder_high = Scalar(12,255,255);
 //detect mineral
 #define mineral_threshold_scale_low 0.8
 #define mineral_threshold_scale_high 1.2
-#define mineral_threshold_area_low 60
-#define mineral_threshold_area_high 600
+#define mineral_threshold_area_low 100//70
+#define mineral_threshold_area_high 6400//600
 
 #define DEBUG
 
