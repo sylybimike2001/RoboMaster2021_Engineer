@@ -12,10 +12,7 @@ void Mineral::run() {
             if (src.empty()) {
                 break;
             }
-            //cv::resize(src, src, cv::Size(640, 640));
         }
-        //Detect_line(src,cutecap);
-        //Select_ROI(src);
-        Detect_mineral(src,cutecap);
+        detectMineral(src,cutecap);
     }
 }

@@ -155,19 +155,19 @@
 		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/detect/detect_mineral.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/detect_line.cpp">
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/get/get_fit_points.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/get/get_fit_points.cpp">
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/get/get_send_data.cpp">
 			<Option target="ToStation"/>
 		</Unit>
 		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/init/init_mineral.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/select_ROI.cpp">
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/send/send_target.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/send/send_target.cpp">
+		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/tool/sort.cpp">
 			<Option target="ToStation"/>
 		</Unit>
 		<Unit filename="/home/ayb/CLionProjects/ToStation/rmconfig/rmconfig.h">

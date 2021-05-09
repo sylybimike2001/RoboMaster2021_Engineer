@@ -15,11 +15,11 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ayb/CLionProjects/ToStation/main.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/main.cpp.o"
   "/home/ayb/CLionProjects/ToStation/mineral/run.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/run.cpp.o"
   "/home/ayb/CLionProjects/ToStation/mineral/src/detect/detect_mineral.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o"
-  "/home/ayb/CLionProjects/ToStation/mineral/src/detect_line.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o"
   "/home/ayb/CLionProjects/ToStation/mineral/src/get/get_fit_points.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o"
+  "/home/ayb/CLionProjects/ToStation/mineral/src/get/get_send_data.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.o"
   "/home/ayb/CLionProjects/ToStation/mineral/src/init/init_mineral.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.o"
-  "/home/ayb/CLionProjects/ToStation/mineral/src/select_ROI.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.o"
   "/home/ayb/CLionProjects/ToStation/mineral/src/send/send_target.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o"
+  "/home/ayb/CLionProjects/ToStation/mineral/src/tool/sort.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o"
   "/home/ayb/CLionProjects/ToStation/tools/sort/sort_points_vector.cpp" "/home/ayb/CLionProjects/ToStation/cmake-build-debug/CMakeFiles/ToStation.dir/tools/sort/sort_points_vector.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

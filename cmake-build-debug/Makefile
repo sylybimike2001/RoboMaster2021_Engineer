@@ -439,33 +439,6 @@ mineral/src/detect/detect_mineral.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.s
 .PHONY : mineral/src/detect/detect_mineral.cpp.s
 
-mineral/src/detect_line.o: mineral/src/detect_line.cpp.o
-
-.PHONY : mineral/src/detect_line.o
-
-# target to build an object file
-mineral/src/detect_line.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.o
-.PHONY : mineral/src/detect_line.cpp.o
-
-mineral/src/detect_line.i: mineral/src/detect_line.cpp.i
-
-.PHONY : mineral/src/detect_line.i
-
-# target to preprocess a source file
-mineral/src/detect_line.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.i
-.PHONY : mineral/src/detect_line.cpp.i
-
-mineral/src/detect_line.s: mineral/src/detect_line.cpp.s
-
-.PHONY : mineral/src/detect_line.s
-
-# target to generate assembly for a file
-mineral/src/detect_line.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect_line.cpp.s
-.PHONY : mineral/src/detect_line.cpp.s
-
 mineral/src/get/get_fit_points.o: mineral/src/get/get_fit_points.cpp.o
 
 .PHONY : mineral/src/get/get_fit_points.o
@@ -492,6 +465,33 @@ mineral/src/get/get_fit_points.s: mineral/src/get/get_fit_points.cpp.s
 mineral/src/get/get_fit_points.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.s
 .PHONY : mineral/src/get/get_fit_points.cpp.s
+
+mineral/src/get/get_send_data.o: mineral/src/get/get_send_data.cpp.o
+
+.PHONY : mineral/src/get/get_send_data.o
+
+# target to build an object file
+mineral/src/get/get_send_data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.o
+.PHONY : mineral/src/get/get_send_data.cpp.o
+
+mineral/src/get/get_send_data.i: mineral/src/get/get_send_data.cpp.i
+
+.PHONY : mineral/src/get/get_send_data.i
+
+# target to preprocess a source file
+mineral/src/get/get_send_data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.i
+.PHONY : mineral/src/get/get_send_data.cpp.i
+
+mineral/src/get/get_send_data.s: mineral/src/get/get_send_data.cpp.s
+
+.PHONY : mineral/src/get/get_send_data.s
+
+# target to generate assembly for a file
+mineral/src/get/get_send_data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.s
+.PHONY : mineral/src/get/get_send_data.cpp.s
 
 mineral/src/init/init_mineral.o: mineral/src/init/init_mineral.cpp.o
 
@@ -520,33 +520,6 @@ mineral/src/init/init_mineral.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.s
 .PHONY : mineral/src/init/init_mineral.cpp.s
 
-mineral/src/select_ROI.o: mineral/src/select_ROI.cpp.o
-
-.PHONY : mineral/src/select_ROI.o
-
-# target to build an object file
-mineral/src/select_ROI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.o
-.PHONY : mineral/src/select_ROI.cpp.o
-
-mineral/src/select_ROI.i: mineral/src/select_ROI.cpp.i
-
-.PHONY : mineral/src/select_ROI.i
-
-# target to preprocess a source file
-mineral/src/select_ROI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.i
-.PHONY : mineral/src/select_ROI.cpp.i
-
-mineral/src/select_ROI.s: mineral/src/select_ROI.cpp.s
-
-.PHONY : mineral/src/select_ROI.s
-
-# target to generate assembly for a file
-mineral/src/select_ROI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/select_ROI.cpp.s
-.PHONY : mineral/src/select_ROI.cpp.s
-
 mineral/src/send/send_target.o: mineral/src/send/send_target.cpp.o
 
 .PHONY : mineral/src/send/send_target.o
@@ -573,6 +546,33 @@ mineral/src/send/send_target.s: mineral/src/send/send_target.cpp.s
 mineral/src/send/send_target.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.s
 .PHONY : mineral/src/send/send_target.cpp.s
+
+mineral/src/tool/sort.o: mineral/src/tool/sort.cpp.o
+
+.PHONY : mineral/src/tool/sort.o
+
+# target to build an object file
+mineral/src/tool/sort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o
+.PHONY : mineral/src/tool/sort.cpp.o
+
+mineral/src/tool/sort.i: mineral/src/tool/sort.cpp.i
+
+.PHONY : mineral/src/tool/sort.i
+
+# target to preprocess a source file
+mineral/src/tool/sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.i
+.PHONY : mineral/src/tool/sort.cpp.i
+
+mineral/src/tool/sort.s: mineral/src/tool/sort.cpp.s
+
+.PHONY : mineral/src/tool/sort.s
+
+# target to generate assembly for a file
+mineral/src/tool/sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.s
+.PHONY : mineral/src/tool/sort.cpp.s
 
 tools/sort/sort_points_vector.o: tools/sort/sort_points_vector.cpp.o
 
@@ -643,21 +643,21 @@ help:
 	@echo "... mineral/src/detect/detect_mineral.o"
 	@echo "... mineral/src/detect/detect_mineral.i"
 	@echo "... mineral/src/detect/detect_mineral.s"
-	@echo "... mineral/src/detect_line.o"
-	@echo "... mineral/src/detect_line.i"
-	@echo "... mineral/src/detect_line.s"
 	@echo "... mineral/src/get/get_fit_points.o"
 	@echo "... mineral/src/get/get_fit_points.i"
 	@echo "... mineral/src/get/get_fit_points.s"
+	@echo "... mineral/src/get/get_send_data.o"
+	@echo "... mineral/src/get/get_send_data.i"
+	@echo "... mineral/src/get/get_send_data.s"
 	@echo "... mineral/src/init/init_mineral.o"
 	@echo "... mineral/src/init/init_mineral.i"
 	@echo "... mineral/src/init/init_mineral.s"
-	@echo "... mineral/src/select_ROI.o"
-	@echo "... mineral/src/select_ROI.i"
-	@echo "... mineral/src/select_ROI.s"
 	@echo "... mineral/src/send/send_target.o"
 	@echo "... mineral/src/send/send_target.i"
 	@echo "... mineral/src/send/send_target.s"
+	@echo "... mineral/src/tool/sort.o"
+	@echo "... mineral/src/tool/sort.i"
+	@echo "... mineral/src/tool/sort.s"
 	@echo "... tools/sort/sort_points_vector.o"
 	@echo "... tools/sort/sort_points_vector.i"
 	@echo "... tools/sort/sort_points_vector.s"

@@ -19,10 +19,9 @@ const Scalar Line_finder_high = Scalar(12,255,255);
 #define mineral_threshold_area_low 100//70
 #define mineral_threshold_area_high 6400//600
 
-#define DEBUG
+
 
 #ifdef DEBUG
 #include <iostream>
 #endif
 
-#define __DEBUG__WRITER
