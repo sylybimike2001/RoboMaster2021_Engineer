@@ -13,6 +13,8 @@ void Mineral::run(V4L2Capture & cap) {
                 break;
             }
         }
-        detectMineralHigh(src,cutecap);
+        detectMineralHigh(src);
+        locateMineralHigh();
+
     }
 }

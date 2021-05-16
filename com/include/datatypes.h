@@ -13,8 +13,8 @@ typedef struct _SendData {
     uint8_t direction_y;                        //‘u’表示在图像视野上方，‘d’表示图像在视野下方
 
     uint8_t Errordata;                          //标志本次是否为错误数据
-    uint8_t Vertical;                           //图像y方向是否对齐
-    uint8_t Standard;                           //图像x方向是否对齐（线是否水平)
+    uint8_t isVertical;                           //图像y方向是否对齐
+    uint8_t isStandard;                           //图像x方向是否对齐（线是否水平)
 
     uint8_t end_flag;
 } SendData;
@@ -67,6 +67,13 @@ typedef struct _SpeedData {
     uint8_t end_flag;
 } SpeedData;
 
+typedef struct _MineralData{
+    uint8_t start_flag;
+    uint8_t type;
+    float speed;
+    float empty_buff;
+    uint8_t end_flag;
+}MineralData;
 #pragma pack(pop)
 
 McuData generatePanMcuData(float yaw, float pitch);
@@ -80,5 +87,5 @@ void readConfigMcuData(McuData* data, uint8_t* state, uint8_t* anti_top,
                        uint8_t* enemy_color);
 void readEnergyMcuData(McuData* data, int* delta_x, int* delta_y);
 void readSpeedMcuData(McuData* data, float* speed);
-void readEngineerMcuData(McuData* mcudata, bool* start);
+void readEngineerMcuData(McuData* mcudata, uint8_t * start);
 #endif

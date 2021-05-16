@@ -62,7 +62,9 @@ void readSpeedMcuData(McuData* mcudata, float* speed) {
     *speed = data.speed;
 }
 
-void readEngineerMcuData(McuData* mcudata, bool* start){
+void readEngineerMcuData(McuData* mcudata, uint8_t * start){
+    MineralData data;
+    memcpy(&data, mcudata, sizeof(McuData));
     *start = mcudata->start;
     std::cout<<"Mcu start:"<<mcudata->start<<std::endl;
 }

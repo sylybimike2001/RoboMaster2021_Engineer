@@ -15,13 +15,16 @@ using namespace cv;
 class Mineral{
 public:
     bool initMineral();
-    void detectMineral(Mat &operand,VideoCapture &capture);
-    void detectMineralHigh(Mat &operand,VideoCapture &capture);
+    void detectMineral(Mat &operande);
+    void detectMineralHigh(Mat &operand);
+    void detectWhiteMineral(Mat &operand);
+    void detectFlash(Mat &operand);
     bool sendTarget();
     void getFitPoints(std::vector<Rect> &fitRects,std::vector<Point> &fitPoints);
     void sortPointsVector(std::vector<cv::Point> &all_fit_points);
     void getSendData(SendData &data,int index);
     void MorMineral(Mat & operand,Mat &output);
+    void locateMineralHigh();
     void run(V4L2Capture & cap);
 private:
     std::vector<Rect>    all_fit_rects;
@@ -33,4 +36,5 @@ private:
     float Min_y;
     bool isHorizontal;
     int Number;
+    int Number_high;
 };

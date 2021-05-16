@@ -555,33 +555,6 @@ mineral/run.cpp.s:
 	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/run.cpp.s
 .PHONY : mineral/run.cpp.s
 
-mineral/src/detect/detect_mineral.o: mineral/src/detect/detect_mineral.cpp.o
-
-.PHONY : mineral/src/detect/detect_mineral.o
-
-# target to build an object file
-mineral/src/detect/detect_mineral.cpp.o:
-	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o
-.PHONY : mineral/src/detect/detect_mineral.cpp.o
-
-mineral/src/detect/detect_mineral.i: mineral/src/detect/detect_mineral.cpp.i
-
-.PHONY : mineral/src/detect/detect_mineral.i
-
-# target to preprocess a source file
-mineral/src/detect/detect_mineral.cpp.i:
-	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.i
-.PHONY : mineral/src/detect/detect_mineral.cpp.i
-
-mineral/src/detect/detect_mineral.s: mineral/src/detect/detect_mineral.cpp.s
-
-.PHONY : mineral/src/detect/detect_mineral.s
-
-# target to generate assembly for a file
-mineral/src/detect/detect_mineral.cpp.s:
-	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.s
-.PHONY : mineral/src/detect/detect_mineral.cpp.s
-
 mineral/src/detect/detect_mineral_high.o: mineral/src/detect/detect_mineral_high.cpp.o
 
 .PHONY : mineral/src/detect/detect_mineral_high.o
@@ -608,6 +581,87 @@ mineral/src/detect/detect_mineral_high.s: mineral/src/detect/detect_mineral_high
 mineral/src/detect/detect_mineral_high.cpp.s:
 	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.s
 .PHONY : mineral/src/detect/detect_mineral_high.cpp.s
+
+mineral/src/detect/detect_mineral_white.o: mineral/src/detect/detect_mineral_white.cpp.o
+
+.PHONY : mineral/src/detect/detect_mineral_white.o
+
+# target to build an object file
+mineral/src/detect/detect_mineral_white.cpp.o:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o
+.PHONY : mineral/src/detect/detect_mineral_white.cpp.o
+
+mineral/src/detect/detect_mineral_white.i: mineral/src/detect/detect_mineral_white.cpp.i
+
+.PHONY : mineral/src/detect/detect_mineral_white.i
+
+# target to preprocess a source file
+mineral/src/detect/detect_mineral_white.cpp.i:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.i
+.PHONY : mineral/src/detect/detect_mineral_white.cpp.i
+
+mineral/src/detect/detect_mineral_white.s: mineral/src/detect/detect_mineral_white.cpp.s
+
+.PHONY : mineral/src/detect/detect_mineral_white.s
+
+# target to generate assembly for a file
+mineral/src/detect/detect_mineral_white.cpp.s:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.s
+.PHONY : mineral/src/detect/detect_mineral_white.cpp.s
+
+mineral/src/detect/detect_mineral_yellow.o: mineral/src/detect/detect_mineral_yellow.cpp.o
+
+.PHONY : mineral/src/detect/detect_mineral_yellow.o
+
+# target to build an object file
+mineral/src/detect/detect_mineral_yellow.cpp.o:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o
+.PHONY : mineral/src/detect/detect_mineral_yellow.cpp.o
+
+mineral/src/detect/detect_mineral_yellow.i: mineral/src/detect/detect_mineral_yellow.cpp.i
+
+.PHONY : mineral/src/detect/detect_mineral_yellow.i
+
+# target to preprocess a source file
+mineral/src/detect/detect_mineral_yellow.cpp.i:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.i
+.PHONY : mineral/src/detect/detect_mineral_yellow.cpp.i
+
+mineral/src/detect/detect_mineral_yellow.s: mineral/src/detect/detect_mineral_yellow.cpp.s
+
+.PHONY : mineral/src/detect/detect_mineral_yellow.s
+
+# target to generate assembly for a file
+mineral/src/detect/detect_mineral_yellow.cpp.s:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.s
+.PHONY : mineral/src/detect/detect_mineral_yellow.cpp.s
+
+mineral/src/flash/detect_flash.o: mineral/src/flash/detect_flash.cpp.o
+
+.PHONY : mineral/src/flash/detect_flash.o
+
+# target to build an object file
+mineral/src/flash/detect_flash.cpp.o:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o
+.PHONY : mineral/src/flash/detect_flash.cpp.o
+
+mineral/src/flash/detect_flash.i: mineral/src/flash/detect_flash.cpp.i
+
+.PHONY : mineral/src/flash/detect_flash.i
+
+# target to preprocess a source file
+mineral/src/flash/detect_flash.cpp.i:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.i
+.PHONY : mineral/src/flash/detect_flash.cpp.i
+
+mineral/src/flash/detect_flash.s: mineral/src/flash/detect_flash.cpp.s
+
+.PHONY : mineral/src/flash/detect_flash.s
+
+# target to generate assembly for a file
+mineral/src/flash/detect_flash.cpp.s:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.s
+.PHONY : mineral/src/flash/detect_flash.cpp.s
 
 mineral/src/get/get_fit_points.o: mineral/src/get/get_fit_points.cpp.o
 
@@ -689,6 +743,33 @@ mineral/src/init/init_mineral.s: mineral/src/init/init_mineral.cpp.s
 mineral/src/init/init_mineral.cpp.s:
 	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.s
 .PHONY : mineral/src/init/init_mineral.cpp.s
+
+mineral/src/locate/locate_high_mineral.o: mineral/src/locate/locate_high_mineral.cpp.o
+
+.PHONY : mineral/src/locate/locate_high_mineral.o
+
+# target to build an object file
+mineral/src/locate/locate_high_mineral.cpp.o:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o
+.PHONY : mineral/src/locate/locate_high_mineral.cpp.o
+
+mineral/src/locate/locate_high_mineral.i: mineral/src/locate/locate_high_mineral.cpp.i
+
+.PHONY : mineral/src/locate/locate_high_mineral.i
+
+# target to preprocess a source file
+mineral/src/locate/locate_high_mineral.cpp.i:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.i
+.PHONY : mineral/src/locate/locate_high_mineral.cpp.i
+
+mineral/src/locate/locate_high_mineral.s: mineral/src/locate/locate_high_mineral.cpp.s
+
+.PHONY : mineral/src/locate/locate_high_mineral.s
+
+# target to generate assembly for a file
+mineral/src/locate/locate_high_mineral.cpp.s:
+	$(MAKE) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.s
+.PHONY : mineral/src/locate/locate_high_mineral.cpp.s
 
 mineral/src/mor/mor_of_mineral_high.o: mineral/src/mor/mor_of_mineral_high.cpp.o
 
@@ -828,12 +909,18 @@ help:
 	@echo "... mineral/run.o"
 	@echo "... mineral/run.i"
 	@echo "... mineral/run.s"
-	@echo "... mineral/src/detect/detect_mineral.o"
-	@echo "... mineral/src/detect/detect_mineral.i"
-	@echo "... mineral/src/detect/detect_mineral.s"
 	@echo "... mineral/src/detect/detect_mineral_high.o"
 	@echo "... mineral/src/detect/detect_mineral_high.i"
 	@echo "... mineral/src/detect/detect_mineral_high.s"
+	@echo "... mineral/src/detect/detect_mineral_white.o"
+	@echo "... mineral/src/detect/detect_mineral_white.i"
+	@echo "... mineral/src/detect/detect_mineral_white.s"
+	@echo "... mineral/src/detect/detect_mineral_yellow.o"
+	@echo "... mineral/src/detect/detect_mineral_yellow.i"
+	@echo "... mineral/src/detect/detect_mineral_yellow.s"
+	@echo "... mineral/src/flash/detect_flash.o"
+	@echo "... mineral/src/flash/detect_flash.i"
+	@echo "... mineral/src/flash/detect_flash.s"
 	@echo "... mineral/src/get/get_fit_points.o"
 	@echo "... mineral/src/get/get_fit_points.i"
 	@echo "... mineral/src/get/get_fit_points.s"
@@ -843,6 +930,9 @@ help:
 	@echo "... mineral/src/init/init_mineral.o"
 	@echo "... mineral/src/init/init_mineral.i"
 	@echo "... mineral/src/init/init_mineral.s"
+	@echo "... mineral/src/locate/locate_high_mineral.o"
+	@echo "... mineral/src/locate/locate_high_mineral.i"
+	@echo "... mineral/src/locate/locate_high_mineral.s"
 	@echo "... mineral/src/mor/mor_of_mineral_high.o"
 	@echo "... mineral/src/mor/mor_of_mineral_high.i"
 	@echo "... mineral/src/mor/mor_of_mineral_high.s"

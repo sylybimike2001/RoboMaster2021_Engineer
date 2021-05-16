@@ -6,16 +6,19 @@
 #include <mutex>
 //将收到的数据解析到这个结构体里
 struct McuConfig {
-    uint8_t state;        // 当前状态，自瞄-大符-小符
-    uint8_t anti_top;     // 是否为反陀螺模式
-    uint8_t enemy_color;  // 敌方颜色
+    uint8_t state;                  // 当前状态，闪光灯检测，闪光灯对位，精确对位，小资源岛对位
+    uint8_t start;
+    uint8_t mineral_release;        // 释放的是几号矿石
+    uint8_t error_x;                // 水平方向误差
     float curr_yaw;       // 当前云台yaw角度
     float curr_pitch;     // 当前云台pitch角
     float bullet_speed;   // 当前弹速
     int delta_x;          // 能量机关x轴补偿量
     int delta_y;          // 能量机关y轴补偿量
-    bool start;
+    uint8_t wrong_data;     //如果是１表明是错误数据
+
 };
+
 
 class RmSerial {
 public:

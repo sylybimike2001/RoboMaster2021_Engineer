@@ -36,24 +36,25 @@ void proccess_data(uint8_t* s, uint8_t* e) {        //参数：头指针，尾�
 //#define MCU_CONFIG_TYPE 1
 //#define MCU_ENERGY_TYPE 2
 //#define MCU_SPEED_TYPE 3
+//#define Engineer_TYPE 4
 //
     switch (mcu_data.type) {
         case MCU_PAN_TYPE:
-            readPanMcuData(&mcu_data, &receive_config_data.curr_yaw,
-                           &receive_config_data.curr_pitch);
-            break;
-        case MCU_CONFIG_TYPE:
-            readConfigMcuData(&mcu_data, &receive_config_data.state,
-                              &receive_config_data.anti_top,
-                              &receive_config_data.enemy_color);
-            break;
-        case MCU_ENERGY_TYPE:
-            readEnergyMcuData(&mcu_data, &receive_config_data.delta_x,
-                              &receive_config_data.delta_y);
-            break;
-        case MCU_SPEED_TYPE:
-            readSpeedMcuData(&mcu_data, &receive_config_data.bullet_speed);
-            break;
+//            readPanMcuData(&mcu_data, &receive_config_data.curr_yaw,
+//                           &receive_config_data.curr_pitch);
+//            break;
+//        case MCU_CONFIG_TYPE:
+//            readConfigMcuData(&mcu_data, &receive_config_data.state,
+//                              &receive_config_data.anti_top,
+//                              &receive_config_data.enemy_color);
+//            break;
+//        case MCU_ENERGY_TYPE:
+//            readEnergyMcuData(&mcu_data, &receive_config_data.delta_x,
+//                              &receive_config_data.delta_y);
+//            break;
+//        case MCU_SPEED_TYPE:
+//            readSpeedMcuData(&mcu_data, &receive_config_data.bullet_speed);
+//            break;
         case 4:
             readEngineerMcuData(&mcu_data, &receive_config_data.start);
         default:

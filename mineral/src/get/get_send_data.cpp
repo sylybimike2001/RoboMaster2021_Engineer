@@ -1,38 +1,35 @@
 #include <mineral.h>
 #include <datatypes.h>
-
+/*
+ * 函数说明：
+ * １、功能：获得发送数据的结构体
+ * ２、参数：　SendData &data　发送数据
+ *          　int index      第index个数据
+*/
 void Mineral::getSendData(SendData &data,int index){
 
-
-    int error_x =all_fit_points[index].x-(float)src.size().width/2;
+    int error_x =all_fit_points[index-1].x-(float)src.size().width/2;
+    int threshold = src.size().width/2;
     if(error_x<0) {
         data.direction_x = 'l';
         data.error_x = 0-error_x;
-        if(data.error_x>120) data.error_x = 120;
+        if(data.error_x>threshold) data.error_x = threshold;
     }
     else {
         data.direction_x = 'r';
         data.error_x = error_x;
-        if(data.error_x>120) data.error_x = 120;
+        if(data.error_x>threshold) data.error_x = threshold;
     }
 
 
-    //y方向误差计算
-    data.error_y=0;
-    int error_y =all_fit_points[index].y-(float)src.size().height/2;
-    if(error_y<0) data.direction_y = 'u';
-    else data.direction_y = 'd';
-    data.error_y =error_y;
-    if(data.error_y>120) data.error_y = 120;
-
     //采用默认值
     data.start_flag='s';
-    data.Standard = 1;
-    data.Vertical = 1;
+    data.isStandard = 1;
+    data.isVertical = 1;
     data.Errordata = 0;
     data.end_flag = 'e';
 
-    if(all_fit_points.size()!=3&&all_fit_points.size()!=7) {
+    if(0) {
 #ifdef DEBUG
         std::cout<<"Wrong Data"<<std::endl;
 #endif

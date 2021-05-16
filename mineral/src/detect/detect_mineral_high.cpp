@@ -13,7 +13,7 @@
 
 
 
-void Mineral::detectMineralHigh(Mat &operand,VideoCapture &capture){
+void Mineral::detectMineralHigh(Mat &operand){
     //初始化各容器
     Number = 0;
     all_fit_rects.clear();
@@ -58,8 +58,25 @@ void Mineral::detectMineralHigh(Mat &operand,VideoCapture &capture){
 #endif
         }
     }
+    /*
+     * 接下来要对５个矿石的逻辑进行判断
+     */
+    for(auto item:all_fit_rects){
+        Point center;
+        center.x = item.x+1/item.width;
+        center.y = item.y+1/item.height;
+        all_fit_points.push_back(center);
+    }
+    sortPointsVector(all_fit_points);
+
+    Number_high = all_fit_points.size();
 
 #ifdef DEBUG
+    for(int index;index<all_fit_points.size();index++){
+        cout<<"X:"<<all_fit_points[index].x<<"  Y:"<<all_fit_points[index].y<<endl;
+        int error_x =all_fit_points[index-1].x-(float)src.size().width/2;
+        cout<<"Error of "<<index<<" X:"<<error_x<<endl;
+    }
     imshow("Detect Mineral High", BackGround);
     waitKey(1);
 #endif

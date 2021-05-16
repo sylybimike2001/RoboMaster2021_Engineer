@@ -171,10 +171,16 @@
 		<Unit filename="/home/ubuntu/ToStation/mineral/run.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/ToStation/mineral/src/detect/detect_mineral.cpp">
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/detect/detect_mineral_high.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ubuntu/ToStation/mineral/src/detect/detect_mineral_high.cpp">
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/detect/detect_mineral_white.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/detect/detect_mineral_yellow.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/flash/detect_flash.cpp">
 			<Option target="ToStation"/>
 		</Unit>
 		<Unit filename="/home/ubuntu/ToStation/mineral/src/get/get_fit_points.cpp">
@@ -184,6 +190,9 @@
 			<Option target="ToStation"/>
 		</Unit>
 		<Unit filename="/home/ubuntu/ToStation/mineral/src/init/init_mineral.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/locate/locate_high_mineral.cpp">
 			<Option target="ToStation"/>
 		</Unit>
 		<Unit filename="/home/ubuntu/ToStation/mineral/src/mor/mor_of_mineral_high.cpp">

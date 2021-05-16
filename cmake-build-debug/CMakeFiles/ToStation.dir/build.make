@@ -226,18 +226,18 @@ CMakeFiles/ToStation.dir/mineral/run.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/run.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ToStation/mineral/run.cpp -o CMakeFiles/ToStation.dir/mineral/run.cpp.s
 
-CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o: CMakeFiles/ToStation.dir/flags.make
-CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o: ../mineral/src/detect/detect_mineral.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o -c /home/ubuntu/ToStation/mineral/src/detect/detect_mineral.cpp
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o: CMakeFiles/ToStation.dir/flags.make
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o: ../mineral/src/detect/detect_mineral_yellow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o -c /home/ubuntu/ToStation/mineral/src/detect/detect_mineral_yellow.cpp
 
-CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ToStation/mineral/src/detect/detect_mineral.cpp > CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.i
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ToStation/mineral/src/detect/detect_mineral_yellow.cpp > CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.i
 
-CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ToStation/mineral/src/detect/detect_mineral.cpp -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.s
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ToStation/mineral/src/detect/detect_mineral_yellow.cpp -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.s
 
 CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o: ../mineral/src/tool/sort.cpp
@@ -369,6 +369,45 @@ CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ToStation/mineral/src/mor/mor_of_mineral_high.cpp -o CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.s
 
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o: CMakeFiles/ToStation.dir/flags.make
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o: ../mineral/src/detect/detect_mineral_white.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o -c /home/ubuntu/ToStation/mineral/src/detect/detect_mineral_white.cpp
+
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ToStation/mineral/src/detect/detect_mineral_white.cpp > CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.i
+
+CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ToStation/mineral/src/detect/detect_mineral_white.cpp -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.s
+
+CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o: CMakeFiles/ToStation.dir/flags.make
+CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o: ../mineral/src/flash/detect_flash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o -c /home/ubuntu/ToStation/mineral/src/flash/detect_flash.cpp
+
+CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ToStation/mineral/src/flash/detect_flash.cpp > CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.i
+
+CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ToStation/mineral/src/flash/detect_flash.cpp -o CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.s
+
+CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o: CMakeFiles/ToStation.dir/flags.make
+CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o: ../mineral/src/locate/locate_high_mineral.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o -c /home/ubuntu/ToStation/mineral/src/locate/locate_high_mineral.cpp
+
+CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/ToStation/mineral/src/locate/locate_high_mineral.cpp > CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.i
+
+CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/ToStation/mineral/src/locate/locate_high_mineral.cpp -o CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.s
+
 # Object files for target ToStation
 ToStation_OBJECTS = \
 "CMakeFiles/ToStation.dir/main.cpp.o" \
@@ -384,7 +423,7 @@ ToStation_OBJECTS = \
 "CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/run.cpp.o" \
-"CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o" \
+"CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.o" \
 "CMakeFiles/ToStation.dir/barrier/src/detect/detect_single.cpp.o" \
@@ -394,7 +433,10 @@ ToStation_OBJECTS = \
 "CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.o" \
 "CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.o" \
-"CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o"
+"CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o" \
+"CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o" \
+"CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o" \
+"CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o"
 
 # External object files for target ToStation
 ToStation_EXTERNAL_OBJECTS =
@@ -412,7 +454,7 @@ ToStation: CMakeFiles/ToStation.dir/flash/run.cpp.o
 ToStation: CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/run.cpp.o
-ToStation: CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral.cpp.o
+ToStation: CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.o
 ToStation: CMakeFiles/ToStation.dir/barrier/src/detect/detect_single.cpp.o
@@ -423,6 +465,9 @@ ToStation: CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.o
 ToStation: CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o
+ToStation: CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o
+ToStation: CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o
+ToStation: CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o
 ToStation: CMakeFiles/ToStation.dir/build.make
 ToStation: /opt/intel/openvino_2020.1.023/opencv/lib/libopencv_dnn.so.4.2.0
 ToStation: /opt/intel/openvino_2020.1.023/opencv/lib/libopencv_gapi.so.4.2.0
@@ -440,7 +485,7 @@ ToStation: /opt/intel/openvino_2020.1.023/opencv/lib/libopencv_flann.so.4.2.0
 ToStation: /opt/intel/openvino_2020.1.023/opencv/lib/libopencv_imgproc.so.4.2.0
 ToStation: /opt/intel/openvino_2020.1.023/opencv/lib/libopencv_core.so.4.2.0
 ToStation: CMakeFiles/ToStation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable ToStation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/ToStation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable ToStation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ToStation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
