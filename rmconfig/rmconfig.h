@@ -1,5 +1,5 @@
 
-#define capture_index 0
+#define capture_index 2
 #define use_cam 1
 
 #define DEBUG

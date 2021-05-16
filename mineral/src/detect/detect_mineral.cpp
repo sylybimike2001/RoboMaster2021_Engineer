@@ -3,12 +3,12 @@
 #include <rmserial.h>
 
 /*
- * 本函数还需要做优化
- * 1、形态学操作效率低
- * 2、遍历轮廓效率低
- * 3、中心点算法
- *
- *
+ * 函数说明
+ * 1、用途：检测已经落在大资源岛上的矿石
+ * 2、参数：
+ *      Mat &operand摄像机读取的图像
+ *      VideoCapture &capture 摄像头实例化对象（等新摄像头到了还要改）
+ * 3、版本：Version 3.0
  */
 
 
@@ -38,7 +38,7 @@ void Mineral::detectMineral(Mat &operand,VideoCapture &capture){
     GaussianBlur(dst, dst, Size(5, 5), 3, 3);
     //inRange(dst, Scalar(20, 40, 70), Scalar(34, 255, 255), dst);   //78,99
     //inRange(dst, Scalar(20, 80, 100), Scalar(34, 255, 255), dst);   //近距离
-    inRange(dst, Scalar(20, 80, 100), Scalar(34, 255, 255), dst);//全距离
+    inRange(dst, Scalar(15, 80, 80), Scalar(34, 255, 255), dst);//全距离
     //inRange(dst, Scalar(20, 70, 100), Scalar(34, 255, 255), dst);//全距离
     erode(dst, dst, kernel);
     erode(dst, dst, kernel);
@@ -59,7 +59,7 @@ void Mineral::detectMineral(Mat &operand,VideoCapture &capture){
     for (int i = 0; i < Contours.size(); i++) {
             Rect fit = boundingRect(Contours[i]);                                                     //矩形拟合合适的轮廓
             bool scale_fit = float(fit.width) / fit.height < mineral_threshold_scale_high &&                //通过长宽比筛选
-                             (float) fit.width / fit.height > mineral_threshold_scale_low;
+                             float(fit.width) / fit.height > mineral_threshold_scale_low;
             bool area_fit = float(fit.width) * float(fit.height) > mineral_threshold_area_low&&float(fit.width) * float(fit.height) < mineral_threshold_area_high;             //通过区域面积筛选
             if (scale_fit&&area_fit) {
                 all_fit_rects.push_back(fit);

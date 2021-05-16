@@ -1,4 +1,4 @@
-/home/ayb/clion-2021.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ayb/CLionProjects/ToStation
+/home/ubuntu/clion-2020.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ubuntu/ToStation
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ayb/CLionProjects/ToStation/cmake-build-debug
+-- Build files have been written to: /home/ubuntu/ToStation/cmake-build-debug

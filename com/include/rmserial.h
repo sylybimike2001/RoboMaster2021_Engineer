@@ -1,6 +1,6 @@
 #ifndef H_RMSERIAL
 #define H_RMSERIAL
-#include </home/ayb/CLionProjects/ToStation/com/include/datatypes.h>
+#include <datatypes.h>
 #include "serial/serial.h"
 
 #include <mutex>

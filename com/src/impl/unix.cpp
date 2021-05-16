@@ -32,7 +32,7 @@
 #include <mach/mach.h>
 #endif
 
-#include "/home/ayb/CLionProjects/ToStation/com/include/serial/impl/unix.h"
+#include "impl/unix.h"
 
 #ifndef TIOCINQ
 #ifdef FIONREAD

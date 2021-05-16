@@ -1,8 +1,28 @@
-//
-// Created by ayb on 2021/5/10.
-//
+#include <iostream>
+#include <vector>
+#include <opencv2/opencv.hpp>
+#include <rmserial.h>
+#include <rmconfig.h>
+#include <uvc_v4l2.h>
+using namespace std;
+using namespace cv;
 
-#ifndef TOSTATION_BARRIER_H
-#define TOSTATION_BARRIER_H
 
-#endif //TOSTATION_BARRIER_H
+class Barrier{
+public:
+    bool initBarrier();
+    void detectBarrierSingle(Mat &operand,V4L2Capture &cap);
+    void detectBarrierDouble(Mat &operand,V4L2Capture &cap);
+    bool sendTarget();
+    void getFitPoints(vector<Rect> &all_fit_rects,vector<Point> &all_fit_points);
+    void getSendData(SendData &data,int index);
+
+    void run(V4L2Capture & cap);
+private:
+    //VideoCapture cutecap;
+
+    RmSerial rmSerial;
+    Mat src;
+    vector<Rect> all_fit_rects;
+    vector<Rect> all_fit_points;
+};

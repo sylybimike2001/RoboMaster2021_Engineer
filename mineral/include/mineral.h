@@ -3,18 +3,26 @@
 #include <opencv2/opencv.hpp>
 #include <rmserial.h>
 #include <rmconfig.h>
+#include <uvc_v4l2.h>
 
 using namespace std;
 using namespace cv;
+/*
+ *代码说明
+ * 1、摄像头参数：定焦150度广角镜头，定曝光1000
+ * 2、检测说明：用来观测高处的矿石
+ */
 class Mineral{
 public:
     bool initMineral();
-    void detectMineral(Mat &operand,VideoCapture &capture);            //在区域内搜索目标，如果检测不到线，全局搜索
+    void detectMineral(Mat &operand,VideoCapture &capture);
+    void detectMineralHigh(Mat &operand,VideoCapture &capture);
     bool sendTarget();
     void getFitPoints(std::vector<Rect> &fitRects,std::vector<Point> &fitPoints);
     void sortPointsVector(std::vector<cv::Point> &all_fit_points);
     void getSendData(SendData &data,int index);
-    void run();
+    void MorMineral(Mat & operand,Mat &output);
+    void run(V4L2Capture & cap);
 private:
     std::vector<Rect>    all_fit_rects;
     std::vector<Point>   all_fit_points;

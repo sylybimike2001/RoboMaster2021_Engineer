@@ -44,7 +44,7 @@
 #include <exception>
 #include <stdexcept>
 //#include <serial/v8stdint.h>
-#include "/home/ayb/CLionProjects/ToStation/com/include/serial/v8sydint.h"
+#include "../serial/v8sydint.h"
 
 #define THROW(exceptionClass, message) throw exceptionClass(__FILE__, \
 __LINE__, (message) )

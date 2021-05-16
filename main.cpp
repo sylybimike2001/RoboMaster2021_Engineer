@@ -1,11 +1,14 @@
 #include <iostream>
-#include "mineral/include/mineral.h"
-#include "./com/include/rmserial.h"
+#include <mineral.h>
+#include <barrier.h>
 using namespace std;
 using namespace cv;
 using namespace std;
 using namespace cv;
-extern bool keepRunning;
+unsigned char *yuv422rame = NULL;
+unsigned long yuvframeSize = 0;
+char devices[40] = "/dev/video0";
+
 int main()
 {
     /*
@@ -16,9 +19,19 @@ int main()
     uint8_t end_flag;
     */
     receive_config_data.start=1;
-    Mineral MINERAL_DETECTOR;
-    MINERAL_DETECTOR.run();
-    cout<<"project start"<<endl;
+//    Mineral MINERAL_DETECTOR;
+//    MINERAL_DETECTOR.run();
+//    cout<<"project start"<<endl;
+//    V4L2Capture cap(devices, 720, 480);
+//    cap.set_exposure(1000);
+//    bool keepRunning = 1;
+//    Barrier BARRIER_DETECTOR;
+//    Mineral MINERAL_BOSS;
+//    MINERAL_BOSS.run(cap);
+//    //BARRIER_DETECTOR.run(cap);
+
+
+
 }
 
 

@@ -40,7 +40,7 @@
 #ifndef SERIAL_IMPL_UNIX_H
 #define SERIAL_IMPL_UNIX_H
 
-#include "/home/ayb/CLionProjects/ToStation/com/include/serial/serial.h"
+#include "../serial/serial.h"
 
 #include <pthread.h>
 

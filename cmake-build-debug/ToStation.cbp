@@ -5,52 +5,54 @@
 		<Option title="ToStation"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\opt\;CMake Files\..\..\..\opt\intel\;CMake Files\..\..\..\opt\intel\openvino_2020.1.023\;CMake Files\..\..\..\opt\intel\openvino_2020.1.023\opencv\;CMake Files\..\..\..\opt\intel\openvino_2020.1.023\opencv\cmake\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option working_dir="/home/ubuntu/ToStation/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option working_dir="/home/ubuntu/ToStation/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option working_dir="/home/ubuntu/ToStation/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ToStation">
-				<Option output="/home/ayb/CLionProjects/ToStation/cmake-build-debug/ToStation" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option output="/home/ubuntu/ToStation/cmake-build-debug/ToStation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/ToStation/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ayb/CLionProjects/ToStation/flash/include"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/mineral/include"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/com/include"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/com/include/serial"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/headers"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/rmconfig"/>
-					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/home/ubuntu/ToStation/flash/include"/>
+					<Add directory="/home/ubuntu/ToStation/mineral/include"/>
+					<Add directory="/home/ubuntu/ToStation/com/include"/>
+					<Add directory="/home/ubuntu/ToStation/com/include/serial"/>
+					<Add directory="/home/ubuntu/ToStation/rmconfig"/>
+					<Add directory="/home/ubuntu/ToStation/barrier/include"/>
+					<Add directory="/opt/intel/openvino_2020.1.023/opencv/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2020.2.254/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2020.2.254/linux/tbb/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -61,26 +63,28 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 ToStation"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 ToStation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ToStation/fast">
-				<Option output="/home/ayb/CLionProjects/ToStation/cmake-build-debug/ToStation" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ayb/CLionProjects/ToStation/cmake-build-debug"/>
+				<Option output="/home/ubuntu/ToStation/cmake-build-debug/ToStation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/ToStation/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/ayb/CLionProjects/ToStation/flash/include"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/mineral/include"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/com/include"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/com/include/serial"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/headers"/>
-					<Add directory="/home/ayb/CLionProjects/ToStation/rmconfig"/>
-					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/home/ubuntu/ToStation/flash/include"/>
+					<Add directory="/home/ubuntu/ToStation/mineral/include"/>
+					<Add directory="/home/ubuntu/ToStation/com/include"/>
+					<Add directory="/home/ubuntu/ToStation/com/include/serial"/>
+					<Add directory="/home/ubuntu/ToStation/rmconfig"/>
+					<Add directory="/home/ubuntu/ToStation/barrier/include"/>
+					<Add directory="/opt/intel/openvino_2020.1.023/opencv/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2020.2.254/linux/mkl/include"/>
+					<Add directory="/opt/intel/compilers_and_libraries_2020.2.254/linux/tbb/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -91,105 +95,129 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 ToStation/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 ToStation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ubuntu/ToStation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/com/include/serial/impl/unix.h">
+		<Unit filename="/home/ubuntu/ToStation/barrier/include/barrier.h">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/com/include/serial/impl/win.h">
+		<Unit filename="/home/ubuntu/ToStation/barrier/src/detect/detect_double.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/com/include/serial/serial.h">
+		<Unit filename="/home/ubuntu/ToStation/barrier/src/detect/detect_single.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/com/include/serial/v8sydint.h">
+		<Unit filename="/home/ubuntu/ToStation/barrier/src/get/get_fit_points.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/datatypes.cpp">
+		<Unit filename="/home/ubuntu/ToStation/barrier/src/init/init_barrier.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/impl/list_ports/list_ports_linux.cpp">
+		<Unit filename="/home/ubuntu/ToStation/barrier/src/run.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/impl/unix.cpp">
+		<Unit filename="/home/ubuntu/ToStation/barrier/uvc_v4l2.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/rmserial.cpp">
+		<Unit filename="/home/ubuntu/ToStation/com/include/serial/impl/unix.h">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/com/src/serial.cpp">
+		<Unit filename="/home/ubuntu/ToStation/com/include/serial/impl/win.h">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/flash/include/flash.h">
+		<Unit filename="/home/ubuntu/ToStation/com/include/serial/serial.h">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/flash/run.cpp">
+		<Unit filename="/home/ubuntu/ToStation/com/include/serial/v8sydint.h">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/flash/src/detect/detect_flash.cpp">
+		<Unit filename="/home/ubuntu/ToStation/com/src/datatypes.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/flash/src/init/init_flash.cpp">
+		<Unit filename="/home/ubuntu/ToStation/com/src/impl/list_ports/list_ports_linux.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/headers/options.h">
+		<Unit filename="/home/ubuntu/ToStation/com/src/impl/unix.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/headers/parameter.h">
+		<Unit filename="/home/ubuntu/ToStation/com/src/rmserial.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/main.cpp">
+		<Unit filename="/home/ubuntu/ToStation/com/src/serial.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/include/mineral.h">
+		<Unit filename="/home/ubuntu/ToStation/flash/include/flash.h">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/run.cpp">
+		<Unit filename="/home/ubuntu/ToStation/flash/run.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/detect/detect_mineral.cpp">
+		<Unit filename="/home/ubuntu/ToStation/flash/src/detect/detect_flash.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/get/get_fit_points.cpp">
+		<Unit filename="/home/ubuntu/ToStation/flash/src/init/init_flash.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/get/get_send_data.cpp">
+		<Unit filename="/home/ubuntu/ToStation/main.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/init/init_mineral.cpp">
+		<Unit filename="/home/ubuntu/ToStation/mineral/include/mineral.h">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/send/send_target.cpp">
+		<Unit filename="/home/ubuntu/ToStation/mineral/run.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/mineral/src/tool/sort.cpp">
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/detect/detect_mineral.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/rmconfig/rmconfig.h">
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/detect/detect_mineral_high.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/tools/sort/sort_points_vector.cpp">
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/get/get_fit_points.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/CMakeLists.txt">
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/get/get_send_data.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/init/init_mineral.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/mor/mor_of_mineral_high.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/send/send_target.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/mineral/src/tool/sort.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/rmconfig/parameter.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/rmconfig/rmconfig.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/rmconfig/uvc_v4l2.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/ToStation/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		<Unit filename="/home/ubuntu/ToStation/../../../opt/intel/openvino_2020.1.023/opencv/cmake/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\intel\openvino_2020.1.023\opencv\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		<Unit filename="/home/ubuntu/ToStation/../../../opt/intel/openvino_2020.1.023/opencv/cmake/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\intel\openvino_2020.1.023\opencv\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		<Unit filename="/home/ubuntu/ToStation/../../../opt/intel/openvino_2020.1.023/opencv/cmake/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\intel\openvino_2020.1.023\opencv\cmake\"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/ToStation/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		<Unit filename="/home/ubuntu/ToStation/../../../opt/intel/openvino_2020.1.023/opencv/cmake/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\opt\intel\openvino_2020.1.023\opencv\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -1,4 +1,4 @@
-#include "/home/ayb/CLionProjects/ToStation/com/include/serial/v8sydint.h"
+#include "../serial/v8sydint.h"
 #include <thread>
 #include <iostream>
 #include <rmserial.h>

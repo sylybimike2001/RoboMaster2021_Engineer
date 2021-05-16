@@ -2,8 +2,8 @@
 //工程车低速或静止时适用
 //思路1：先检测挂在高处的矿石块，在其上方小区域内搜索目标
 //思路2：两帧相减，通过比例识别，大能量机关的转动会干扰
-#include "../../include/flash.h"
-#include "../../../headers/parameter.h"
+#include "flash.h"
+#include "parameter.h"
 #include <vector>
 using namespace std;
 void Flash::detectFlash(cv::Mat &operand) {

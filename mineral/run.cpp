@@ -1,18 +1,18 @@
 #include <mineral.h>
 #include <rmconfig.h>
-#include <iostream>
-using namespace std;
-//McuConfig receive_config_data;
-void Mineral::run() {
+#include <uvc_v4l2.h>
+void Mineral::run(V4L2Capture & cap) {
     initMineral();
     while (1)
     {
         if (use_cam) {
-            cutecap >> src;
+            //cutecap >> src;
+            cap>>src;
+            //resize(src,src,Size(src.size().width/2,src.size().height/2));
             if (src.empty()) {
                 break;
             }
         }
-        detectMineral(src,cutecap);
+        detectMineralHigh(src,cutecap);
     }
 }

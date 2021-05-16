@@ -17,7 +17,6 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-
 set(CMAKE_AR "/usr/bin/ar")
 set(CMAKE_C_COMPILER_AR "/usr/bin/gcc-ar-7")
 set(CMAKE_RANLIB "/usr/bin/ranlib")
@@ -71,7 +70,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/opt/intel/compilers_and_libraries_2020.2.254/linux/mkl/include;/opt/intel/compilers_and_libraries_2020.2.254/linux/tbb/include;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/opt/intel/compilers_and_libraries_2020.2.254/linux/compiler/lib/intel64_lin;/opt/intel/compilers_and_libraries_2020.2.254/linux/mkl/lib/intel64_lin;/opt/intel/compilers_and_libraries_2020.2.254/linux/tbb/lib/intel64/gcc4.8")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
