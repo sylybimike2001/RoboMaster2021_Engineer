@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ToStation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ToStation">
+				<Option output="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/ToStation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/include"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/include"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/include"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/include/serial"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/rmconfig"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 ToStation"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ToStation/fast">
+				<Option output="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/ToStation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/include"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/include"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/include"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/include/serial"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/rmconfig"/>
+					<Add directory="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/include"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 ToStation/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/include/barrier.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/detect/detect_double.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/detect/detect_single.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/get/get_fit_points.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/init/init_barrier.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/run.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/uvc_v4l2.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/include/serial/impl/unix.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/include/serial/impl/win.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/include/serial/serial.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/include/serial/v8sydint.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/src/datatypes.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/src/impl/list_ports/list_ports_linux.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/src/impl/unix.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/src/rmserial.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/src/serial.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/include/flash.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/run.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/detect/detect_flash.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/init/init_flash.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/main.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/include/mineral.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/run.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/detect/detect_mineral_high.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/detect/detect_mineral_white.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/detect/detect_mineral_yellow.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/flash/detect_flash.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/get/get_fit_points.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/get/get_send_data.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/init/init_mineral.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/locate/locate_high_mineral.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_of_mineral_high.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/send/send_target.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/tool/sort.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/rmconfig/parameter.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/rmconfig/rmconfig.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/rmconfig/uvc_v4l2.h">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

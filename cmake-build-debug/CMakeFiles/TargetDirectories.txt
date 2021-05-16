@@ -1,0 +1,3 @@
+/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles/ToStation.dir
