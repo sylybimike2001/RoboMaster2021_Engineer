@@ -39,3 +39,39 @@ void Mineral::getSendData(SendData &data,int index){
     }
     if(data.error_x<mineral_threshold_error) data.is_standard =1;
 }
+
+void Mineral::getSendData(SendData &data){
+    int error_x;
+    if(Number_white==1){
+        data.is_error_data = 1;
+        error_x = all_fit_points[0].x-(float)src.size().width/2;
+    }
+    else if(Number_white==3){
+        error_x = all_fit_points[1].x-(float) src.size().width / 2;
+    }
+    else {
+        data.is_error_data = 1;
+        cout<<"Wrong Data"<<endl;
+        return;
+    }
+
+        int threshold = src.size().width / 3;
+        if (error_x < 0) {
+            data.direction_x = 'l';
+            data.error_x = 0 - error_x;
+            if (data.error_x > threshold) data.error_x = threshold;     //输出限幅
+        } else {
+            data.direction_x = 'r';
+            data.error_x = error_x;
+            if (data.error_x > threshold) data.error_x = threshold;     //输出限幅
+        }
+        data.start_flag = 's';
+        data.is_standard = 0;
+        data.is_error_data = 0;
+        data.end_flag = 'e';
+        data.number_to_release = 0;
+        if (data.error_x < mineral_threshold_error) data.is_standard = 1;
+        cout<<"Data sent: "<<data.error_x<<endl;
+
+        //卡尔曼滤波
+}

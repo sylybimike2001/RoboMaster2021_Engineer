@@ -72,7 +72,7 @@ void Mineral::detectMineral(Mat &operand){
     if(all_fit_rects.size()<2) return;
 
     getFitPoints(all_fit_rects,all_fit_points);
-    sortPointsVector(all_fit_points);
+    sortPointsVector(all_fit_points,1);
 
     if(all_fit_points.size()<3) return;
 

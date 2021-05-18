@@ -32,6 +32,15 @@ const Scalar Line_finder_high = Scalar(12,255,255);
 #define barrier_threshold_area_low 100
 #define barrier_threshold_area_high 160000
 #define barrier_threshold_length 80
+#define barrier_threshold_bin 30
+
+//detect white mineral
+#define mineral_white_threshold_scale_low 0.9
+#define mineral_white_threshold_scale_high 1.1
+#define mineral_white_threshold_area_low 1600
+#define mineral_white_threshold_area_high 10000
+#define mineral_white_threshold_length 150
+#define mineral_white_threshold_bin 30
 
 #ifdef DEBUG
 #include <iostream>

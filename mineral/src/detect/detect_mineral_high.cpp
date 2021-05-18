@@ -67,7 +67,7 @@ void Mineral::detectMineralHigh(Mat &operand){
         center.y = item.y+1/item.height;
         all_fit_points.push_back(center);
     }
-    sortPointsVector(all_fit_points);
+    sortPointsVector(all_fit_points,1);
 
     TargetNumber = all_fit_points.size();
 

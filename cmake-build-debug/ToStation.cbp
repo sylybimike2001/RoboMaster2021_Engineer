@@ -197,6 +197,9 @@
 		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/send/send_target.cpp">
 			<Option target="ToStation"/>
 		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/tool/gamma_transform.cpp">
+			<Option target="ToStation"/>
+		</Unit>
 		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/tool/sort.cpp">
 			<Option target="ToStation"/>
 		</Unit>

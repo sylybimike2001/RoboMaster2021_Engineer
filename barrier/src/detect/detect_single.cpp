@@ -10,7 +10,7 @@ void  GammaTransform(cv::Mat &image, cv::Mat &dist)
     image.convertTo(imageGamma, CV_64F, 1.0 / 255, 0);
 
     //伽马变换
-    double gamma = 1.5;
+    double gamma = 1.8;
 
     pow(imageGamma, gamma, dist);//dist 要与imageGamma有相同的数据类型
 
@@ -39,10 +39,10 @@ void Barrier::detectBarrierSingle(Mat &operand, V4L2Capture &cap) {
     //形态学操作，有改进的空间，可以调这部分
     Mat kernel = getStructuringElement(MORPH_RECT,Size(9,9));
     cvtColor(src,dst,COLOR_BGR2GRAY);
-    GaussianBlur(dst,dst,Size(5,5),3);
+    blur(dst,dst,Size(3,3));
     GammaTransform(dst,dst);
     morphologyEx(dst,dst,MORPH_CLOSE,kernel);
-    threshold(dst,dst,20,255,THRESH_BINARY);
+    threshold(dst,dst,barrier_threshold_bin,255,THRESH_BINARY);
 
 #ifdef DEBUG
     imshow("after Mor",dst);
@@ -74,8 +74,8 @@ void Barrier::detectBarrierSingle(Mat &operand, V4L2Capture &cap) {
 
 
 #ifdef __DEBUG__WRITER
-    if(receive_config_data.start) sendTarget();
-    else cout<<"Not Sending data"<<endl;
+//    if(receive_config_data.start) sendTarget();
+    //else cout<<"Not Sending data"<<endl;
 #endif
 #ifdef DEBUG
     cout<<"NUmber of Rects"<<all_fit_rects.size()<<endl;

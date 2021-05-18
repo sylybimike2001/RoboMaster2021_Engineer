@@ -30,6 +30,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/locate/locate_high_mineral.cpp" "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o"
   "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_of_mineral_high.cpp" "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o"
   "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/send/send_target.cpp" "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o"
+  "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/tool/gamma_transform.cpp" "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o"
   "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/tool/sort.cpp" "/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

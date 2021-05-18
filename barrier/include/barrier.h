@@ -19,7 +19,7 @@ public:
 
     void run(V4L2Capture & cap);
 private:
-    //VideoCapture cutecap;
+    VideoCapture cutecap;
 
     RmSerial rmSerial;
     Mat src;

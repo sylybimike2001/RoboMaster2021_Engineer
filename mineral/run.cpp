@@ -11,7 +11,24 @@ void Mineral::run(V4L2Capture & cap) {
                 break;
             }
         }
-        detectMineralHigh(src);
+//        detectMineralHigh(src);
+        detectWhiteMineral(src);
+        //locateMineralHigh();
+
+    }
+}
+void Mineral::run(VideoCapture & cap) {
+    initMineral();
+    while (1)
+    {
+        if (use_cam) {
+            cap>>src;
+            if (src.empty()) {
+                break;
+            }
+        }
+//        detectMineralHigh(src);
+        detectWhiteMineral(src);
         //locateMineralHigh();
 
     }

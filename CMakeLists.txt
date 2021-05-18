@@ -9,7 +9,7 @@ set(SOURCE_FILES main.cpp rmconfig/parameter.h
         mineral/src/send/send_target.cpp flash/include/flash.h flash/src/detect/detect_flash.cpp flash/run.cpp flash/src/init/init_flash.cpp flash/src/init/init_flash.cpp
         mineral/src/get/get_fit_points.cpp mineral/run.cpp mineral/src/detect/detect_mineral_yellow.cpp mineral/src/tool/sort.cpp mineral/src/get/get_send_data.cpp rmconfig/parameter.h
         barrier/include/barrier.h barrier/src/detect/detect_single.cpp barrier/src/detect/detect_double.cpp barrier/src/init/init_barrier.cpp barrier/src/run.cpp barrier/src/get/get_fit_points.cpp
-        rmconfig/uvc_v4l2.h barrier/uvc_v4l2.cpp mineral/src/detect/detect_mineral_high.cpp mineral/src/mor/mor_of_mineral_high.cpp mineral/src/detect/detect_mineral_white.cpp mineral/src/flash/detect_flash.cpp mineral/src/locate/locate_high_mineral.cpp)
+        rmconfig/uvc_v4l2.h barrier/uvc_v4l2.cpp mineral/src/detect/detect_mineral_high.cpp mineral/src/mor/mor_of_mineral_high.cpp mineral/src/detect/detect_mineral_white.cpp mineral/src/flash/detect_flash.cpp mineral/src/locate/locate_high_mineral.cpp mineral/src/tool/gamma_transform.cpp)
 
 add_executable(ToStation ${SOURCE_FILES})
 include_directories(${PROJECT_SOURCE_DIR}/flash/include)

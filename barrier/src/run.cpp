@@ -5,11 +5,10 @@ void Barrier::run(V4L2Capture &cap){
     while (1)
     {
         if (use_cam) {
-            cap >> src;
-            resize(src,src,Size(src.size().width/2,src.size().height/2));
-            if (src.empty()) {
-                break;
-            }
+           // cutecap  = VideoCapture(0);
+            cutecap >> src;
+            //resize(src,src,Size(src.size().width/2,src.size().height/2));
+            if (src.empty()) break;
         }
         detectBarrierSingle(src,cap);
     }

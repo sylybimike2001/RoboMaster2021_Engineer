@@ -844,6 +844,33 @@ mineral/src/send/send_target.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.s
 .PHONY : mineral/src/send/send_target.cpp.s
 
+mineral/src/tool/gamma_transform.o: mineral/src/tool/gamma_transform.cpp.o
+
+.PHONY : mineral/src/tool/gamma_transform.o
+
+# target to build an object file
+mineral/src/tool/gamma_transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o
+.PHONY : mineral/src/tool/gamma_transform.cpp.o
+
+mineral/src/tool/gamma_transform.i: mineral/src/tool/gamma_transform.cpp.i
+
+.PHONY : mineral/src/tool/gamma_transform.i
+
+# target to preprocess a source file
+mineral/src/tool/gamma_transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.i
+.PHONY : mineral/src/tool/gamma_transform.cpp.i
+
+mineral/src/tool/gamma_transform.s: mineral/src/tool/gamma_transform.cpp.s
+
+.PHONY : mineral/src/tool/gamma_transform.s
+
+# target to generate assembly for a file
+mineral/src/tool/gamma_transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.s
+.PHONY : mineral/src/tool/gamma_transform.cpp.s
+
 mineral/src/tool/sort.o: mineral/src/tool/sort.cpp.o
 
 .PHONY : mineral/src/tool/sort.o
@@ -958,6 +985,9 @@ help:
 	@echo "... mineral/src/send/send_target.o"
 	@echo "... mineral/src/send/send_target.i"
 	@echo "... mineral/src/send/send_target.s"
+	@echo "... mineral/src/tool/gamma_transform.o"
+	@echo "... mineral/src/tool/gamma_transform.i"
+	@echo "... mineral/src/tool/gamma_transform.s"
 	@echo "... mineral/src/tool/sort.o"
 	@echo "... mineral/src/tool/sort.i"
 	@echo "... mineral/src/tool/sort.s"

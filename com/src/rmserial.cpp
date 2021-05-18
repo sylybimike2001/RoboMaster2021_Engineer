@@ -7,7 +7,7 @@ using namespace serial;
 // receive data
 
 std::mutex receive_mtx;
-McuConfig receive_config_data;
+//McuConfig receive_config_data;
 std::string uart_port = "/dev/ttyUSB0";
 
 
@@ -32,10 +32,11 @@ void proccess_data(uint8_t* s, uint8_t* e) {        //参数：头指针，尾�
         return;
     }
     receive_mtx.lock();
+
 #define BARRICADE_AUTO_RUN 1
 #define BIG_RESOURCE_ISLAND_AUTO_RUN 2
 #define SMALL_RESOURCE_ISLAND_AUTO_RUN 3
-#define Engineer_TYPE 4
+#define FREE_MODE 4
 
     receive_config_data.state = mcu_data.state;
     receive_config_data.start = mcu_data.start;

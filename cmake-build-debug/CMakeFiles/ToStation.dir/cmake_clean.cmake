@@ -25,6 +25,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o"
   "CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o"
   "CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o"
+  "CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o"
   "CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o"
   "ToStation"
   "ToStation.pdb"

@@ -21,11 +21,14 @@ public:
     void detectFlash(Mat &operand);
     bool sendTarget();
     void getFitPoints(std::vector<Rect> &fitRects,std::vector<Point> &fitPoints);
-    void sortPointsVector(std::vector<cv::Point> &all_fit_points);
+    void sortPointsVector(std::vector<cv::Point> &all_fit_points,int flag);
+    void GammaTransform(Mat &image,Mat &dist);
     void getSendData(SendData &data,int index);
+    void getSendData(SendData &data);
     void MorMineral(Mat & operand,Mat &output);
     void locateMineralHigh();
     void run(V4L2Capture & cap);
+    void run(VideoCapture & cap);
 private:
     std::vector<Rect>    all_fit_rects;
     std::vector<Point>   all_fit_points;
@@ -38,4 +41,5 @@ private:
     int TargetNumber;
     int Number;
     int Number_high;
+    int Number_white;
 };
