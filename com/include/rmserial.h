@@ -1,6 +1,7 @@
 #ifndef H_RMSERIAL
 #define H_RMSERIAL
 #include <datatypes.h>
+#include <rmconfig.h>
 #include "serial/serial.h"
 #include <mutex>
 //将收到的数据解析到这个结构体里
@@ -28,4 +29,5 @@ public:
 
 extern std::mutex receive_mtx;                  //接收数据的全局锁
 extern McuConfig receive_config_data;           //用来存储接收到的数据
+extern RmSerial rmSerial;                       //用来发送数据
 #endif

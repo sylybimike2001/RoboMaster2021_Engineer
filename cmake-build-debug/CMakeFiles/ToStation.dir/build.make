@@ -180,48 +180,9 @@ CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/send/send_target.cpp -o CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.s
 
-CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o: CMakeFiles/ToStation.dir/flags.make
-CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o: ../flash/src/detect/detect_flash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/detect/detect_flash.cpp
-
-CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/detect/detect_flash.cpp > CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.i
-
-CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/detect/detect_flash.cpp -o CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.s
-
-CMakeFiles/ToStation.dir/flash/run.cpp.o: CMakeFiles/ToStation.dir/flags.make
-CMakeFiles/ToStation.dir/flash/run.cpp.o: ../flash/run.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ToStation.dir/flash/run.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/flash/run.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/run.cpp
-
-CMakeFiles/ToStation.dir/flash/run.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/flash/run.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/run.cpp > CMakeFiles/ToStation.dir/flash/run.cpp.i
-
-CMakeFiles/ToStation.dir/flash/run.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/flash/run.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/run.cpp -o CMakeFiles/ToStation.dir/flash/run.cpp.s
-
-CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o: CMakeFiles/ToStation.dir/flags.make
-CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o: ../flash/src/init/init_flash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/init/init_flash.cpp
-
-CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/init/init_flash.cpp > CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.i
-
-CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/init/init_flash.cpp -o CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.s
-
 CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o: ../mineral/src/get/get_fit_points.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/get/get_fit_points.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.i: cmake_force
@@ -234,7 +195,7 @@ CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/run.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/run.cpp.o: ../mineral/run.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ToStation.dir/mineral/run.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ToStation.dir/mineral/run.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/run.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/run.cpp
 
 CMakeFiles/ToStation.dir/mineral/run.cpp.i: cmake_force
@@ -247,7 +208,7 @@ CMakeFiles/ToStation.dir/mineral/run.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o: ../mineral/src/detect/detect_mineral_yellow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/detect/detect_mineral_yellow.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.i: cmake_force
@@ -260,7 +221,7 @@ CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.s: cmake_f
 
 CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o: ../mineral/src/tool/sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/tool/sort.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.i: cmake_force
@@ -273,7 +234,7 @@ CMakeFiles/ToStation.dir/mineral/src/tool/sort.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.o: ../mineral/src/get/get_send_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/get/get_send_data.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.i: cmake_force
@@ -286,7 +247,7 @@ CMakeFiles/ToStation.dir/mineral/src/get/get_send_data.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/barrier/src/detect/detect_single.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/barrier/src/detect/detect_single.cpp.o: ../barrier/src/detect/detect_single.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/detect/detect_single.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/detect/detect_single.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/barrier/src/detect/detect_single.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/detect/detect_single.cpp
 
 CMakeFiles/ToStation.dir/barrier/src/detect/detect_single.cpp.i: cmake_force
@@ -299,7 +260,7 @@ CMakeFiles/ToStation.dir/barrier/src/detect/detect_single.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/barrier/src/detect/detect_double.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/barrier/src/detect/detect_double.cpp.o: ../barrier/src/detect/detect_double.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/detect/detect_double.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/detect/detect_double.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/barrier/src/detect/detect_double.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/detect/detect_double.cpp
 
 CMakeFiles/ToStation.dir/barrier/src/detect/detect_double.cpp.i: cmake_force
@@ -312,7 +273,7 @@ CMakeFiles/ToStation.dir/barrier/src/detect/detect_double.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/barrier/src/init/init_barrier.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/barrier/src/init/init_barrier.cpp.o: ../barrier/src/init/init_barrier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/init/init_barrier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/init/init_barrier.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/barrier/src/init/init_barrier.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/init/init_barrier.cpp
 
 CMakeFiles/ToStation.dir/barrier/src/init/init_barrier.cpp.i: cmake_force
@@ -325,7 +286,7 @@ CMakeFiles/ToStation.dir/barrier/src/init/init_barrier.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/barrier/src/run.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/barrier/src/run.cpp.o: ../barrier/src/run.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/run.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/run.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/barrier/src/run.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/run.cpp
 
 CMakeFiles/ToStation.dir/barrier/src/run.cpp.i: cmake_force
@@ -338,7 +299,7 @@ CMakeFiles/ToStation.dir/barrier/src/run.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.o: ../barrier/src/get/get_fit_points.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/src/get/get_fit_points.cpp
 
 CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.i: cmake_force
@@ -351,7 +312,7 @@ CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.o: ../barrier/uvc_v4l2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/barrier/uvc_v4l2.cpp
 
 CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.i: cmake_force
@@ -364,7 +325,7 @@ CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.o: ../mineral/src/detect/detect_mineral_high.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/detect/detect_mineral_high.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.i: cmake_force
@@ -375,22 +336,22 @@ CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/detect/detect_mineral_high.cpp -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.s
 
-CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o: CMakeFiles/ToStation.dir/flags.make
-CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o: ../mineral/src/mor/mor_of_mineral_high.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_of_mineral_high.cpp
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o: CMakeFiles/ToStation.dir/flags.make
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o: ../mineral/src/mor/mor_hang_high_mineral.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_hang_high_mineral.cpp
 
-CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_of_mineral_high.cpp > CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.i
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_hang_high_mineral.cpp > CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.i
 
-CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_of_mineral_high.cpp -o CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.s
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_hang_high_mineral.cpp -o CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.s
 
 CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o: ../mineral/src/detect/detect_mineral_white.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/detect/detect_mineral_white.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.i: cmake_force
@@ -403,7 +364,7 @@ CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.s: cmake_fo
 
 CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o: ../mineral/src/flash/detect_flash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/flash/detect_flash.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.i: cmake_force
@@ -416,7 +377,7 @@ CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.s: cmake_force
 
 CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o: ../mineral/src/locate/locate_high_mineral.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/locate/locate_high_mineral.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.i: cmake_force
@@ -429,7 +390,7 @@ CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.s: cmake_for
 
 CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o: CMakeFiles/ToStation.dir/flags.make
 CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o: ../mineral/src/tool/gamma_transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/tool/gamma_transform.cpp
 
 CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.i: cmake_force
@@ -439,6 +400,32 @@ CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.i: cmake_force
 CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/tool/gamma_transform.cpp -o CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.s
+
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o: CMakeFiles/ToStation.dir/flags.make
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o: ../mineral/src/mor/mor_dropped_yellow_mineral.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_dropped_yellow_mineral.cpp
+
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_dropped_yellow_mineral.cpp > CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.i
+
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_dropped_yellow_mineral.cpp -o CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.s
+
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.o: CMakeFiles/ToStation.dir/flags.make
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.o: ../mineral/src/mor/mor_white_mineral.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.o -c /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_white_mineral.cpp
+
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_white_mineral.cpp > CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.i
+
+CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_white_mineral.cpp -o CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.s
 
 # Object files for target ToStation
 ToStation_OBJECTS = \
@@ -450,9 +437,6 @@ ToStation_OBJECTS = \
 "CMakeFiles/ToStation.dir/com/src/impl/list_ports/list_ports_linux.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o" \
-"CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o" \
-"CMakeFiles/ToStation.dir/flash/run.cpp.o" \
-"CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/run.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o" \
@@ -465,11 +449,13 @@ ToStation_OBJECTS = \
 "CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.o" \
 "CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.o" \
-"CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o" \
+"CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o" \
 "CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o" \
-"CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o"
+"CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o" \
+"CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o" \
+"CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.o"
 
 # External object files for target ToStation
 ToStation_EXTERNAL_OBJECTS =
@@ -482,9 +468,6 @@ ToStation: CMakeFiles/ToStation.dir/com/src/impl/unix.cpp.o
 ToStation: CMakeFiles/ToStation.dir/com/src/impl/list_ports/list_ports_linux.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/init/init_mineral.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/send/send_target.cpp.o
-ToStation: CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o
-ToStation: CMakeFiles/ToStation.dir/flash/run.cpp.o
-ToStation: CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/get/get_fit_points.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/run.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_yellow.cpp.o
@@ -497,11 +480,13 @@ ToStation: CMakeFiles/ToStation.dir/barrier/src/run.cpp.o
 ToStation: CMakeFiles/ToStation.dir/barrier/src/get/get_fit_points.cpp.o
 ToStation: CMakeFiles/ToStation.dir/barrier/uvc_v4l2.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_high.cpp.o
-ToStation: CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o
+ToStation: CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/detect/detect_mineral_white.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/flash/detect_flash.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.o
 ToStation: CMakeFiles/ToStation.dir/mineral/src/tool/gamma_transform.cpp.o
+ToStation: CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o
+ToStation: CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.o
 ToStation: CMakeFiles/ToStation.dir/build.make
 ToStation: /usr/local/lib/libopencv_dnn.so.4.4.0
 ToStation: /usr/local/lib/libopencv_highgui.so.4.4.0
@@ -518,7 +503,7 @@ ToStation: /usr/local/lib/libopencv_flann.so.4.4.0
 ToStation: /usr/local/lib/libopencv_imgproc.so.4.4.0
 ToStation: /usr/local/lib/libopencv_core.so.4.4.0
 ToStation: CMakeFiles/ToStation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable ToStation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable ToStation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ToStation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

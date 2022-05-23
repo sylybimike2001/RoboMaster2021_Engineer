@@ -15,10 +15,11 @@ using namespace cv;
 class Mineral{
 public:
     bool initMineral();
-    void detectMineral(Mat &operande);
-    void detectMineralHigh(Mat &operand);
+    //void detectMineral(Mat &operande);
+    void detectHighMineral(Mat &operand);
     void detectWhiteMineral(Mat &operand);
-    void detectFlash(Mat &operand);
+    void detectYellowMineral(Mat &operand);
+    //void detectFlash(Mat &operand);
     bool sendTarget();
     void getFitPoints(std::vector<Rect> &fitRects,std::vector<Point> &fitPoints);
     void sortPointsVector(std::vector<cv::Point> &all_fit_points,int flag);
@@ -26,17 +27,15 @@ public:
     void getSendData(SendData &data,int index);
     void getSendData(SendData &data);
     void MorMineral(Mat & operand,Mat &output);
+    void MorYellowMineral(Mat & operand,Mat &output);
+    void MorWhiteMineral(Mat & operand,Mat &output);
     void locateMineralHigh();
-    void run(V4L2Capture & cap);
-    void run(VideoCapture & cap);
+    void runBigResourceIsland(V4L2Capture & cap);
+    void runSmallResourceIsland(V4L2Capture & cap);
 private:
     std::vector<Rect>    all_fit_rects;
     std::vector<Point>   all_fit_points;
-    VideoCapture cutecap;
-    RmSerial rmSerial;
     Mat src;
-    float Max_y;
-    float Min_y;
     bool isHorizontal;
     int TargetNumber;
     int Number;

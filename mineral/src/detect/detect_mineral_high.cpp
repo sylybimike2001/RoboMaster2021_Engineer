@@ -13,7 +13,7 @@
 
 
 
-void Mineral::detectMineralHigh(Mat &operand){
+void Mineral::detectHighMineral(Mat &operand){
     //初始化各容器
     Number = 0;
     all_fit_rects.clear();

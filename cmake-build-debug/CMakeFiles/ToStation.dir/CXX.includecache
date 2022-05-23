@@ -13,6 +13,8 @@ stdint.h
 ../com/include/rmserial.h
 datatypes.h
 -
+rmconfig.h
+-
 serial/serial.h
 ../com/include/serial/serial.h
 mutex
@@ -58,12 +60,6 @@ rmconfig.h
 uvc_v4l2.h
 -
 
-../rmconfig/parameter.h
-opencv2/opencv.hpp
--
-iostream
--
-
 ../rmconfig/rmconfig.h
 iostream
 -
@@ -102,12 +98,8 @@ iomanip
 string
 -
 
-/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/get/get_send_data.cpp
+/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_white_mineral.cpp
 mineral.h
--
-datatypes.h
--
-parameter.h
 -
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp

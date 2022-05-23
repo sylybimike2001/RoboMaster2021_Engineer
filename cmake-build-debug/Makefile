@@ -439,87 +439,6 @@ com/src/serial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/com/src/serial.cpp.s
 .PHONY : com/src/serial.cpp.s
 
-flash/run.o: flash/run.cpp.o
-
-.PHONY : flash/run.o
-
-# target to build an object file
-flash/run.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/flash/run.cpp.o
-.PHONY : flash/run.cpp.o
-
-flash/run.i: flash/run.cpp.i
-
-.PHONY : flash/run.i
-
-# target to preprocess a source file
-flash/run.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/flash/run.cpp.i
-.PHONY : flash/run.cpp.i
-
-flash/run.s: flash/run.cpp.s
-
-.PHONY : flash/run.s
-
-# target to generate assembly for a file
-flash/run.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/flash/run.cpp.s
-.PHONY : flash/run.cpp.s
-
-flash/src/detect/detect_flash.o: flash/src/detect/detect_flash.cpp.o
-
-.PHONY : flash/src/detect/detect_flash.o
-
-# target to build an object file
-flash/src/detect/detect_flash.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.o
-.PHONY : flash/src/detect/detect_flash.cpp.o
-
-flash/src/detect/detect_flash.i: flash/src/detect/detect_flash.cpp.i
-
-.PHONY : flash/src/detect/detect_flash.i
-
-# target to preprocess a source file
-flash/src/detect/detect_flash.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.i
-.PHONY : flash/src/detect/detect_flash.cpp.i
-
-flash/src/detect/detect_flash.s: flash/src/detect/detect_flash.cpp.s
-
-.PHONY : flash/src/detect/detect_flash.s
-
-# target to generate assembly for a file
-flash/src/detect/detect_flash.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/flash/src/detect/detect_flash.cpp.s
-.PHONY : flash/src/detect/detect_flash.cpp.s
-
-flash/src/init/init_flash.o: flash/src/init/init_flash.cpp.o
-
-.PHONY : flash/src/init/init_flash.o
-
-# target to build an object file
-flash/src/init/init_flash.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.o
-.PHONY : flash/src/init/init_flash.cpp.o
-
-flash/src/init/init_flash.i: flash/src/init/init_flash.cpp.i
-
-.PHONY : flash/src/init/init_flash.i
-
-# target to preprocess a source file
-flash/src/init/init_flash.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.i
-.PHONY : flash/src/init/init_flash.cpp.i
-
-flash/src/init/init_flash.s: flash/src/init/init_flash.cpp.s
-
-.PHONY : flash/src/init/init_flash.s
-
-# target to generate assembly for a file
-flash/src/init/init_flash.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/flash/src/init/init_flash.cpp.s
-.PHONY : flash/src/init/init_flash.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -790,32 +709,86 @@ mineral/src/locate/locate_high_mineral.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/locate/locate_high_mineral.cpp.s
 .PHONY : mineral/src/locate/locate_high_mineral.cpp.s
 
-mineral/src/mor/mor_of_mineral_high.o: mineral/src/mor/mor_of_mineral_high.cpp.o
+mineral/src/mor/mor_dropped_yellow_mineral.o: mineral/src/mor/mor_dropped_yellow_mineral.cpp.o
 
-.PHONY : mineral/src/mor/mor_of_mineral_high.o
+.PHONY : mineral/src/mor/mor_dropped_yellow_mineral.o
 
 # target to build an object file
-mineral/src/mor/mor_of_mineral_high.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.o
-.PHONY : mineral/src/mor/mor_of_mineral_high.cpp.o
+mineral/src/mor/mor_dropped_yellow_mineral.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.o
+.PHONY : mineral/src/mor/mor_dropped_yellow_mineral.cpp.o
 
-mineral/src/mor/mor_of_mineral_high.i: mineral/src/mor/mor_of_mineral_high.cpp.i
+mineral/src/mor/mor_dropped_yellow_mineral.i: mineral/src/mor/mor_dropped_yellow_mineral.cpp.i
 
-.PHONY : mineral/src/mor/mor_of_mineral_high.i
+.PHONY : mineral/src/mor/mor_dropped_yellow_mineral.i
 
 # target to preprocess a source file
-mineral/src/mor/mor_of_mineral_high.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.i
-.PHONY : mineral/src/mor/mor_of_mineral_high.cpp.i
+mineral/src/mor/mor_dropped_yellow_mineral.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.i
+.PHONY : mineral/src/mor/mor_dropped_yellow_mineral.cpp.i
 
-mineral/src/mor/mor_of_mineral_high.s: mineral/src/mor/mor_of_mineral_high.cpp.s
+mineral/src/mor/mor_dropped_yellow_mineral.s: mineral/src/mor/mor_dropped_yellow_mineral.cpp.s
 
-.PHONY : mineral/src/mor/mor_of_mineral_high.s
+.PHONY : mineral/src/mor/mor_dropped_yellow_mineral.s
 
 # target to generate assembly for a file
-mineral/src/mor/mor_of_mineral_high.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_of_mineral_high.cpp.s
-.PHONY : mineral/src/mor/mor_of_mineral_high.cpp.s
+mineral/src/mor/mor_dropped_yellow_mineral.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_dropped_yellow_mineral.cpp.s
+.PHONY : mineral/src/mor/mor_dropped_yellow_mineral.cpp.s
+
+mineral/src/mor/mor_hang_high_mineral.o: mineral/src/mor/mor_hang_high_mineral.cpp.o
+
+.PHONY : mineral/src/mor/mor_hang_high_mineral.o
+
+# target to build an object file
+mineral/src/mor/mor_hang_high_mineral.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.o
+.PHONY : mineral/src/mor/mor_hang_high_mineral.cpp.o
+
+mineral/src/mor/mor_hang_high_mineral.i: mineral/src/mor/mor_hang_high_mineral.cpp.i
+
+.PHONY : mineral/src/mor/mor_hang_high_mineral.i
+
+# target to preprocess a source file
+mineral/src/mor/mor_hang_high_mineral.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.i
+.PHONY : mineral/src/mor/mor_hang_high_mineral.cpp.i
+
+mineral/src/mor/mor_hang_high_mineral.s: mineral/src/mor/mor_hang_high_mineral.cpp.s
+
+.PHONY : mineral/src/mor/mor_hang_high_mineral.s
+
+# target to generate assembly for a file
+mineral/src/mor/mor_hang_high_mineral.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_hang_high_mineral.cpp.s
+.PHONY : mineral/src/mor/mor_hang_high_mineral.cpp.s
+
+mineral/src/mor/mor_white_mineral.o: mineral/src/mor/mor_white_mineral.cpp.o
+
+.PHONY : mineral/src/mor/mor_white_mineral.o
+
+# target to build an object file
+mineral/src/mor/mor_white_mineral.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.o
+.PHONY : mineral/src/mor/mor_white_mineral.cpp.o
+
+mineral/src/mor/mor_white_mineral.i: mineral/src/mor/mor_white_mineral.cpp.i
+
+.PHONY : mineral/src/mor/mor_white_mineral.i
+
+# target to preprocess a source file
+mineral/src/mor/mor_white_mineral.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.i
+.PHONY : mineral/src/mor/mor_white_mineral.cpp.i
+
+mineral/src/mor/mor_white_mineral.s: mineral/src/mor/mor_white_mineral.cpp.s
+
+.PHONY : mineral/src/mor/mor_white_mineral.s
+
+# target to generate assembly for a file
+mineral/src/mor/mor_white_mineral.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToStation.dir/build.make CMakeFiles/ToStation.dir/mineral/src/mor/mor_white_mineral.cpp.s
+.PHONY : mineral/src/mor/mor_white_mineral.cpp.s
 
 mineral/src/send/send_target.o: mineral/src/send/send_target.cpp.o
 
@@ -940,15 +913,6 @@ help:
 	@echo "... com/src/serial.o"
 	@echo "... com/src/serial.i"
 	@echo "... com/src/serial.s"
-	@echo "... flash/run.o"
-	@echo "... flash/run.i"
-	@echo "... flash/run.s"
-	@echo "... flash/src/detect/detect_flash.o"
-	@echo "... flash/src/detect/detect_flash.i"
-	@echo "... flash/src/detect/detect_flash.s"
-	@echo "... flash/src/init/init_flash.o"
-	@echo "... flash/src/init/init_flash.i"
-	@echo "... flash/src/init/init_flash.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -979,9 +943,15 @@ help:
 	@echo "... mineral/src/locate/locate_high_mineral.o"
 	@echo "... mineral/src/locate/locate_high_mineral.i"
 	@echo "... mineral/src/locate/locate_high_mineral.s"
-	@echo "... mineral/src/mor/mor_of_mineral_high.o"
-	@echo "... mineral/src/mor/mor_of_mineral_high.i"
-	@echo "... mineral/src/mor/mor_of_mineral_high.s"
+	@echo "... mineral/src/mor/mor_dropped_yellow_mineral.o"
+	@echo "... mineral/src/mor/mor_dropped_yellow_mineral.i"
+	@echo "... mineral/src/mor/mor_dropped_yellow_mineral.s"
+	@echo "... mineral/src/mor/mor_hang_high_mineral.o"
+	@echo "... mineral/src/mor/mor_hang_high_mineral.i"
+	@echo "... mineral/src/mor/mor_hang_high_mineral.s"
+	@echo "... mineral/src/mor/mor_white_mineral.o"
+	@echo "... mineral/src/mor/mor_white_mineral.i"
+	@echo "... mineral/src/mor/mor_white_mineral.s"
 	@echo "... mineral/src/send/send_target.o"
 	@echo "... mineral/src/send/send_target.i"
 	@echo "... mineral/src/send/send_target.s"

@@ -146,18 +146,6 @@
 		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/com/src/serial.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/include/flash.h">
-			<Option target="ToStation"/>
-		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/run.cpp">
-			<Option target="ToStation"/>
-		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/detect/detect_flash.cpp">
-			<Option target="ToStation"/>
-		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/flash/src/init/init_flash.cpp">
-			<Option target="ToStation"/>
-		</Unit>
 		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/main.cpp">
 			<Option target="ToStation"/>
 		</Unit>
@@ -191,7 +179,13 @@
 		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/locate/locate_high_mineral.cpp">
 			<Option target="ToStation"/>
 		</Unit>
-		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_of_mineral_high.cpp">
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_dropped_yellow_mineral.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_hang_high_mineral.cpp">
+			<Option target="ToStation"/>
+		</Unit>
+		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/mor/mor_white_mineral.cpp">
 			<Option target="ToStation"/>
 		</Unit>
 		<Unit filename="/home/ayb/CLionProjects/RoboMaster2021_Engineer-master/mineral/src/send/send_target.cpp">
